@@ -1,0 +1,73 @@
+Resultados do Regressao Logistica
+Resultados da Validação Cruzada (5 Folds):
+Acurácias por fold: 63.19%, 71.53%, 73.61%, 61.11%, 62.50%
+Média do CV: 66.39% (+/- 5.13%)
+
+Acurácia no Teste Final: 79.4444%
+
+               precision    recall  f1-score   support
+
+       abalar       1.00      0.67      0.80         3
+     abominar       1.00      1.00      1.00         3
+    aborrecer       1.00      0.67      0.80         3
+      acanhar       1.00      0.67      0.80         3
+      admirar       0.25      0.33      0.29         3
+       adorar       1.00      0.33      0.50         3
+       afetar       0.75      1.00      0.86         3
+      afligir       1.00      0.67      0.80         3
+       agitar       0.50      0.67      0.57         3
+     aguentar       1.00      0.67      0.80         3
+      almejar       1.00      1.00      1.00         3
+     alucinar       1.00      1.00      1.00         3
+         amar       0.60      1.00      0.75         3
+      amassar       1.00      0.67      0.80         3
+    apaixonar       1.00      1.00      1.00         3
+     apreciar       1.00      0.33      0.50         3
+     arranhar       0.50      0.67      0.57         3
+        bater       1.00      0.67      0.80         3
+      chatear       1.00      0.67      0.80         3
+       chutar       0.75      1.00      0.86         3
+      cobiçar       0.50      0.33      0.40         3
+      comover       0.75      1.00      0.86         3
+   contemplar       1.00      0.67      0.80         3
+       cortar       1.00      0.33      0.50         3
+       curtir       0.67      0.67      0.67         3
+  decepcionar       1.00      1.00      1.00         3
+    depreciar       1.00      0.67      0.80         3
+     deprimir       1.00      0.67      0.80         3
+     derrubar       1.00      0.67      0.80         3
+    desanimar       0.50      1.00      0.67         3
+      desejar       1.00      1.00      1.00         3
+    desgostar       1.00      1.00      1.00         3
+desinteressar       0.75      1.00      0.86         3
+   despedaçar       1.00      1.00      1.00         3
+    desprezar       1.00      1.00      1.00         3
+     detestar       0.60      1.00      0.75         3
+    emocionar       1.00      0.67      0.80         3
+     encantar       0.25      0.33      0.29         3
+    enfurecer       0.75      1.00      0.86         3
+ escandalizar       1.00      1.00      1.00         3
+      esmagar       1.00      1.00      1.00         3
+     esmurrar       0.50      0.67      0.57         3
+   estilhaçar       1.00      0.67      0.80         3
+      estimar       1.00      1.00      1.00         3
+    estranhar       0.75      1.00      0.86         3
+  estraçalhar       1.00      1.00      1.00         3
+        furar       1.00      0.67      0.80         3
+   horrorizar       1.00      1.00      1.00         3
+    idolatrar       1.00      1.00      1.00         3
+      invejar       1.00      0.67      0.80         3
+       louvar       0.75      1.00      0.86         3
+         moer       0.60      1.00      0.75         3
+        odiar       1.00      1.00      1.00         3
+       partir       1.00      0.67      0.80         3
+     perfurar       0.50      1.00      0.67         3
+      quebrar       0.75      1.00      0.86         3
+        ralar       0.67      0.67      0.67         3
+       rasgar       1.00      0.67      0.80         3
+      trincar       0.50      0.33      0.40         3
+     triturar       0.75      1.00      0.86         3
+
+     accuracy                           0.79       180
+    macro avg       0.85      0.79      0.79       180
+ weighted avg       0.85      0.79      0.79       180

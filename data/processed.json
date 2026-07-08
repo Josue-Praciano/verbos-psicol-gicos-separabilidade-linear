@@ -1,0 +1,5402 @@
+[
+    {
+        "id": 1,
+        "texto": "Houve um exagero em abominar a política.",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 2,
+        "texto": "Ele é basicamente tudo o que os mercados deveriam abominar.",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 3,
+        "texto": "Hoje as elites econômicas continuam a abominar o povo.",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 4,
+        "texto": "Os brasileiros deveria abominar o período ditatorial",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 5,
+        "texto": "Está em a hora de abominar o barco",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 6,
+        "texto": "Parece mais abominar a política como a inventaram os gregos",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 7,
+        "texto": "Jacqueline disse abominar propostas que tratam de a liberação de o porte de armas",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 8,
+        "texto": "O próprio povo diz abominar a corrupção",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 9,
+        "texto": "ela revelou abominar a posição política de Danilo Gentili",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 10,
+        "texto": "Fanáticos religiosos e ideológicos são violentos não só por abominar o Ocidente",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 11,
+        "texto": "Beltrame disse ainda abominar a truculência policial",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 12,
+        "texto": "João fez Maria abominar José",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 13,
+        "texto": "Começo é a abominar o espírito que domina esta quadra",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 14,
+        "texto": "É querer justiça e abominar a legalidade.",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 15,
+        "texto": "Como se bastasse abominar o fascista para derrotar o fascista",
+        "verbo_alvo": "abominar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 16,
+        "texto": "Acabam por admirar que nós tenhamos esta garra",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 17,
+        "texto": "A população parou a noite para admirar Maju em as telinhas.",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 18,
+        "texto": "Não é de admirar que você se sinta confuso e frustrado!",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 19,
+        "texto": "Tão gata que vou para o motel só para admirar essa foto",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 20,
+        "texto": "Aprendi a admirar e a consumir moda",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 21,
+        "texto": "Os hóspedes ficam perto de a terra e podem admirar o lindo céu de o Texas.",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 22,
+        "texto": "O museu é indicado para quem quer admirar obras de arte seculares.",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 23,
+        "texto": "As pessoas vão admirar você hoje.",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 24,
+        "texto": "Parei milhares de vezes para admirar e tirar fotos.",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 25,
+        "texto": "Ela tem o privilégio de admirar um cenário trabalhado caprichosamente por a natureza.",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 26,
+        "texto": "Yana diz admirar o caráter de Aruna",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 27,
+        "texto": "Livana diz admirar a coragem de Rune",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 28,
+        "texto": "As futuras gerações vão admirar a nossa miliciana eternamente jovem",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 29,
+        "texto": "meus olhos não conseguiam parar de admirar a beleza de o lugar!",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 30,
+        "texto": "Aprendemos a admirar as qualidades um de o outro",
+        "verbo_alvo": "admirar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 31,
+        "texto": "Temos certeza de que todos vão adorar o Carnaval em Petrópolis",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 32,
+        "texto": "As crianças vão adorar as aves de rapina",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 33,
+        "texto": "Allan é de família judaica e Carol passou a adorar todas as tradições de a religião quando se apaixonou por ele.",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 34,
+        "texto": "Pabllo Vittar parece adorar curtir alguns momentos de descanso",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 35,
+        "texto": "Eva eu já sabia que ia adorar a ideia.",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 36,
+        "texto": "O cantor Klev convidou o povo de Deus a adorar e todos formaram um grande coral",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 37,
+        "texto": "O papo de anjo é uma sobremesa portuguesa que você vai adorar",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 38,
+        "texto": "A mulher deve adorar o homem como a um Deus",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 39,
+        "texto": "A gurizada deverá adorar o vampiro Rudolph",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 40,
+        "texto": "Não precisamos esperar chegar a a igreja para adorar.",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 41,
+        "texto": "Davi percebeu que não adiantava adorar a Deus sem dar a Ele o melhor.",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 42,
+        "texto": "O garoto afirma adorar ver vídeos em o YouTube e em a Netflix usando o popsocket",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 43,
+        "texto": "Giovanna Lancellotti conviveu com Títi e afirmou adorar a companhia de a pequena.",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 44,
+        "texto": "Os fãs de a linha GTI vão adorar o novo Polo.",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 45,
+        "texto": "O belo discurso e o conhecimento agradou a todos que parecem adorar quem fala difícil",
+        "verbo_alvo": "adorar",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 46,
+        "texto": "Sei que sem você não voltarei a amar tão cedo",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 47,
+        "texto": "Eu não sabia o que era amar antes de ter filhos.",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 48,
+        "texto": "Ele aprendeu que o importante era amar e ser amado",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 49,
+        "texto": "Alexandre Borges diz que é possível amar mais de uma",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 50,
+        "texto": "Zizi em os ensinou a amar e ajudar a o próximo",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 51,
+        "texto": "Rafaelina era apaixonada por amar escritores",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 52,
+        "texto": "Ninguém é cinéfilo se não amar a Emmanuelle Riva de Hiroshima Meu Amor",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 53,
+        "texto": "Criança precisa amar a aula",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 54,
+        "texto": "Eles lembram que amar é aparar arestas",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 55,
+        "texto": "O playboy ainda ressalta que aprendeu a amar Samuca",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 56,
+        "texto": "O informante conta que Rihanna vai amar Chris Brown para sempre",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 57,
+        "texto": "Não sabia que poderia amar alguém com tanta intensidade.",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 58,
+        "texto": "Nós estamos tentando criar um movimento para cada mulher amar o próprio corpo",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 59,
+        "texto": "Os gamers irão amar o PS4",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 60,
+        "texto": "Eu sei que Vou te Amar",
+        "verbo_alvo": "amar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 61,
+        "texto": "Os concorrentes passaram a cobiçar a mina de ouro de o Google",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 62,
+        "texto": "O gestor também deverá cobiçar a vaga em a suplência",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 63,
+        "texto": "Traz os pequenos brincos de ouro que eu costumava cobiçar",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 64,
+        "texto": "Como duelo contra Neymar levou Barça a cobiçar lateral comparado a Bolt",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 65,
+        "texto": "Não cobiçar a mulher de o próximo",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 66,
+        "texto": "Será que ela não sabe que não se deve cobiçar o que é de o próximo?",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 67,
+        "texto": "Carille em o segundo turno fez mais equipes passarem a cobiçar a liderança.",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 68,
+        "texto": "Depois de o Leverkusen é a vez de o Estugarda cobiçar o portista Diego Reys",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 69,
+        "texto": "A aposentada acusou o doutor de cobiçar outras sisters além de Emilly",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 70,
+        "texto": "A tendência levou centenas de multinacionais a cobiçar o mercado brasileiro",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 71,
+        "texto": "Será que ele vai cobiçar mais alguma coisa minha?",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 72,
+        "texto": "Os gerentes de o sexo masculino admitiu a cobiçar colegas de o sexo feminino",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 73,
+        "texto": "Todos ficaram a cobiçar aquele casaco verde.",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 74,
+        "texto": "Investidores voltam a cobiçar o Brasil",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 75,
+        "texto": "Hades Dai também passa a cobiçar o título.",
+        "verbo_alvo": "cobiçar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 76,
+        "texto": "A natação e o ciclismo não deixam nada a desejar",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 77,
+        "texto": "Só me resta desejar força pra família e rezar por ela",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 78,
+        "texto": "Infelizmente a medicina em os hospitais deixa a desejar",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 79,
+        "texto": "É que a menina nunca soube bem o que desejar",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 80,
+        "texto": "Vários jogadores usaram as redes sociais para desejar um feliz ano novo",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 81,
+        "texto": "O brasileiro deixa muito a desejar em o show de entretenimento.",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 82,
+        "texto": "A qualidade deixa a desejar",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 83,
+        "texto": "A saúde pública fica muito a desejar e o pior problema é a demora",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 84,
+        "texto": "O teatro musical brasileiro não deixa a desejar para as produções estrangeiras.",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 85,
+        "texto": "A gente deveria desejar algo muito mais forte",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 86,
+        "texto": "Acho que a moda brasileira não deixa nada a desejar",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 87,
+        "texto": "Os integrantes de o One Direction revelaram desejar ter mais fãs masculinos.",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 88,
+        "texto": "Copacabana não deixa a desejar.",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 89,
+        "texto": "Só posso desejar boa sorte",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 90,
+        "texto": "Quero desejar um ótimo Dia de as Crianças para todos nós",
+        "verbo_alvo": "desejar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 91,
+        "texto": "A atriz afirmou detestar a cor de um batom desejo de a época",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 92,
+        "texto": "Gosto de essas datas que muitos dizem detestar",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 93,
+        "texto": "Uma pessoa pode gostar de comida japonesa e detestar pizza",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 94,
+        "texto": "Pena que a maioria de os Advogados diz detestar a matemática",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 95,
+        "texto": "Raimi declaradamente disse detestar o personagem por sua falta de humanidade.",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 96,
+        "texto": "Bolsonaro vai detestar a informação de a PF sobre a facada",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 97,
+        "texto": "Eu acreditei em a opinião alheia e comecei a detestar meu corpo",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 98,
+        "texto": "Passei a gostar de coentro e a detestar o frio.",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 99,
+        "texto": "Elas adoram detestar, elas adoram odiar.",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 100,
+        "texto": "Emilia Clarke explica comentário sobre detestar cenas de sexo",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 101,
+        "texto": "Vincent é um personagem que é difícil de detestar",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 102,
+        "texto": "Gifford concorda que Mário partiu para a Síria por detestar o Daesh.",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 103,
+        "texto": "Várias mulheres dizem detestar sexo prolongado",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 104,
+        "texto": "Detestar é o sentimento mais bem distribuído de o Brasil Hoje",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 105,
+        "texto": "A gente não deve detestar ninguém",
+        "verbo_alvo": "detestar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 106,
+        "texto": "Fui a primeira a estranhar minha repentina versão loira.",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 107,
+        "texto": "As pessoas costumam estranhar uma chef de cozinha magra.",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 108,
+        "texto": "As duas voltarão a se estranhar mais tarde.",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 109,
+        "texto": "O turista não deve estranhar se for recepcionado por um grupo de dançarinos de carimbó",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 110,
+        "texto": "Tiaguinho parecia não estranhar o gramado",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 111,
+        "texto": "CET afirma estranhar greve de agentes de trânsito em SP em esta terça",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 112,
+        "texto": "As Chiquititas voltam a se estranhar com as crianças de a escola",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 113,
+        "texto": "Atacante português recebeu o cartão vermelho após se estranhar com adversário",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 114,
+        "texto": "Eles costumam estranhar alguns hábitos locais",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 115,
+        "texto": "Muita gente vai estranhar esse o novo Alex Silva.",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 116,
+        "texto": "Eles sabem que os fãs vão estranhar.",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 117,
+        "texto": "Ele diz estranhar costumes brasileiros",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 118,
+        "texto": "Os apreciadores de cervejas artesanais não devem estranhar o rótulo com um ganso branco",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 119,
+        "texto": "Defesa Social diz estranhar comportamento de João Lyra",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 120,
+        "texto": "Seu irmão chegou a estranhar o comportamento de o funcionário",
+        "verbo_alvo": "estranhar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 121,
+        "texto": "Não temos de invejar ninguém",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 122,
+        "texto": "Madonna diz invejar as carreiras de a cantora Whitney Houston e de a atriz Sharon Stone",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 123,
+        "texto": "Ficar em São Paulo em o Carnaval era motivo para invejar quem viajou",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 124,
+        "texto": "Lisboa está com um outono de invejar.",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 125,
+        "texto": "Os estudos sugerem que as pessoas tendem a invejar gente parecida com elas.",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 126,
+        "texto": "Pare de invejar os outros",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 127,
+        "texto": "O Android Eclair deve invejar versões posteriores que permitem que você instale aplicativos em o cartão SD",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 128,
+        "texto": "Não tenho nada que invejar Lionel Messi",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 129,
+        "texto": "Nunca vi um publico invejar uma apresentadora assim",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 130,
+        "texto": "Receio invejar mais o Germano de o que gosto dele",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 131,
+        "texto": "A União Europeia deve invejar a UEFA",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 132,
+        "texto": "Sem a mais pequena ponta de ironia confesso invejar quem tem certezas sobre estas matérias",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 133,
+        "texto": "O truque de o sucesso é não desistir e não invejar ninguém!",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 134,
+        "texto": "John Landis assegurou não invejar o lado bastante estranho de a celebridade.",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 135,
+        "texto": "A sorte de a população civil não é de invejar.",
+        "verbo_alvo": "invejar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 136,
+        "texto": "Quem te odeia vai sempre odiar!",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 137,
+        "texto": "Ele gosta de odiar os outros",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 138,
+        "texto": "Estou adorando te odiar",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 139,
+        "texto": "Eu costumava odiar exercício.",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 140,
+        "texto": "Desde pequena Ellis aprendera a odiar o Flagelo.",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 141,
+        "texto": "Em todas as edições eu elejo alguém para odiar dentro de o BBB",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 142,
+        "texto": "Dificilmente você não irá odiar os atos cruéis de Raul",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 143,
+        "texto": "Joe Eszterhas também acusa Gibson de odiar os judeuS",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 144,
+        "texto": "Sandra passará a odiar e culpar Rafael",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 145,
+        "texto": "Comecei a odiar meu corpo depois que tive meu primeiro filho Oliver",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 146,
+        "texto": "O aluno começa a odiar o Português e acaba com medo de escrever",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 147,
+        "texto": "Odiar o torcedor de o outro clube é insano",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 148,
+        "texto": "Os ingleses têm uma característica de se odiar",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 149,
+        "texto": "O mundo ama odiar Transformers",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 150,
+        "texto": "Jornalistas possuem razão para odiar Joaquim Barbosa",
+        "verbo_alvo": "odiar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 151,
+        "texto": "Os trabalhadores não querem mais aguentar calados,",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 152,
+        "texto": "Eles têm que aguentar puxão de orelha",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 153,
+        "texto": "Os moradores dizem não aguentar mais o roubo de placas",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 154,
+        "texto": "A gente precisa de fantasia para aguentar o tranco de o mundo real",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 155,
+        "texto": "Eu quero ver se consigo aguentar esperar até a hora de o parto",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 156,
+        "texto": "Eles dependem de servidores realmente poderosos para aguentar tamanha demanda de os internautas.",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 157,
+        "texto": "Você pode aguentar esse frio?",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 158,
+        "texto": "Você corre até não aguentar mais",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 159,
+        "texto": "A peça pode aguentar até 363 quilos.",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 160,
+        "texto": "Dificilmente a criança vai aguentar o ritmo de os pais",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 161,
+        "texto": "Preciso de dois meses para estar mais bem condicionada e aguentar o treino",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 162,
+        "texto": "Vou ficar até me aguentar acordada.",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 163,
+        "texto": "Ela também precisa aguentar a inveja de sua irmã Lia.",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 164,
+        "texto": "Preta entrou em a dieta detox para aguentar o ritmo de seus 20 shows durante os dias de festa.",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 165,
+        "texto": "O processador é potente para aguentar tantas funções.",
+        "verbo_alvo": "aguentar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 166,
+        "texto": "O anarquismo é o melhor que a gente pode almejar.",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 167,
+        "texto": "Poderemos almejar algo mais de o que disputar um terceiro lugar",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 168,
+        "texto": "Ela diz almejar mudar os hábitos de os tomadores de café em o Brasil em o consumo",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 169,
+        "texto": "A mulherada têm é que estudar e almejar concursos públicos com salários dignos de se viver",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 170,
+        "texto": "Os atletas de o clube alvinegro podem almejar caminhos mais distantes em o futebol",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 171,
+        "texto": "Mas são jogadores que estão querendo almejar um espaço em o futebol nacional.",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 172,
+        "texto": "Eu acho que a confiança é uma coisa que eu preciso almejar em o relacionamento.",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 173,
+        "texto": "A Nintendo afirma que almejar vender 2 milhões de unidades de o Switch até o fim de março",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 174,
+        "texto": "O político que não almejar aspiração é um político acomodado",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 175,
+        "texto": "O Figão tem que almejar título nacional",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 176,
+        "texto": "Queremos almejar coisas melhores.",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 177,
+        "texto": "Temos tudo para buscar o que em os falta e almejar a paz.",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 178,
+        "texto": "O Tricolor chega a a última rodada de o campeonato sem almejar posição",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 179,
+        "texto": "Almejar a paz é o dever de todo homem honrado",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 180,
+        "texto": "A nossa ambição é sempre almejar os melhores resultados.",
+        "verbo_alvo": "almejar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 181,
+        "texto": "É hora de apreciar o ritual de o Ganga Aarti",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 182,
+        "texto": "É bom apreciar esses breves (e raros) momentos de normalidade em Monterey.",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 183,
+        "texto": "A Comissão mista criada para apreciar a Medida Provisória 881/2019 foi instalada em esta terça-feira (18).",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 184,
+        "texto": "O público terá a oportunidade de apreciar mais uma apresentação de os bailarinos e bailarinas de o Sesi",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 185,
+        "texto": "Dos prédios altos de o bairro é possível apreciar com detalhes seu vizinho",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 186,
+        "texto": "O amor precisa apreciar novamente as pequenas coisas",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 187,
+        "texto": "Os amantes de bons drinks vão poder apreciar variados tipos de cervejas artesanais",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 188,
+        "texto": "Um de os melhores locais para apreciar a vista de o rio é em a rua João Arriola",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 189,
+        "texto": "Você tem que aprender a apreciar os pequenos detalhes em seu relacionamento.",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 190,
+        "texto": "A gente deveria apreciar os momentos",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 191,
+        "texto": "Os participantes poderão apreciar pratos como Pulpo a la gallega; Paella Saint Andrews; Tartine de jamon ibérico",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 192,
+        "texto": "Ciclista faz uma pausa para apreciar a beleza de o Circuito Chico",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 193,
+        "texto": "Os ministros vão apreciar ainda a ação que discute a descriminalização de o porte de maconha para uso pessoal",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 194,
+        "texto": "A Câmara pode votar o pedido de urgência para apreciar a proposição de o deputado.",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 195,
+        "texto": "Os hóspedes terão grandes chances de apreciar o canto de as maritacas de o local",
+        "verbo_alvo": "apreciar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 196,
+        "texto": "O planejamento também deverá contemplar a segurança de a informação e cibernética",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 197,
+        "texto": "No morro é possível contemplar um vale formado por uma usina",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 198,
+        "texto": "O objetivo de o vereador é contemplar a totalidade de os jovens de a cidade",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 199,
+        "texto": "O projeto de engenharia vai contemplar todas as perspectivas de drenagem",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 200,
+        "texto": "Temos uma feira de touros que vai contemplar animais de diversas raças",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 201,
+        "texto": "Os participantes puderam contemplar as belezas de a região",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 202,
+        "texto": "O decreto poderia contemplar qualquer pessoa",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 203,
+        "texto": "Visitantes podem contemplar o maior planeta de o Sistema Solar gratuitamente a partir de esta sexta-feira",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 204,
+        "texto": "O projeto' Bem Casados' deve contemplar 169 casais.",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 205,
+        "texto": "A proposta é contemplar todos os públicos",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 206,
+        "texto": "A cobertura vai contemplar apenas partidas entre adversários que estejam sobre o mesmo contrato.",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 207,
+        "texto": "Bolsonaro diz que o projeto vai contemplar  áreas esquecidas",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 208,
+        "texto": "O público vai contemplar clássicos como  La Belle de Jour ,  Girassol ,  Coração",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 209,
+        "texto": "O concurso vai contemplar importantes cidades de o interior e atender um anseio de toda a Polícia Civil",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 210,
+        "texto": "Os atletas vão poder contemplar um pouco de o Parque Nacional de a Serra de a Bodoquena",
+        "verbo_alvo": "contemplar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 211,
+        "texto": "Família e apoiadores também vão curtir evento",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 212,
+        "texto": "Fernanda Lima surge com look bafônico para curtir a Parada de o Orgulho LGBT",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 213,
+        "texto": "O público poderá curtir as apresentações de a dupla Simone e Simaria",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 214,
+        "texto": "Você ganhou um par de ingressos para curtir a nova turnê",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 215,
+        "texto": "Grupo de mulheres dá dicas para envelhecer bem e curtir a nova fase de a vida",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 216,
+        "texto": "Marina Ruy Barbosa arrumou as malas para curtir as merecidas férias",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 217,
+        "texto": "Adnet falou que pretende curtir a vida ainda jovem",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 218,
+        "texto": "Neymar veio a o Brasil para curtir com o amigo Gabriel Medina a festa junina dada em a casa de Anitta",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 219,
+        "texto": "O G1 tem mais atrações pra você curtir o fim de semana",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 220,
+        "texto": "Thais e Michel viajaram para curtir o sétimo Dia de os Namorados juntos.",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 221,
+        "texto": "É junto a a família que você vai curtir os momentos íntimos.",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 222,
+        "texto": "Um grupo de pacientes saiu de os leitos para curtir uma festa junina a o ar livre.",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 223,
+        "texto": "os visitantes poderão curtir o espetáculo  A mágica de o riso",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 224,
+        "texto": "As manhãs e tardes são ótimas para ficar em casa e curtir uma preguiça.",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 225,
+        "texto": "Comecei a curtir você em 2009.",
+        "verbo_alvo": "curtir",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 226,
+        "texto": "É preciso depreciar o conhecimento pois o fascismo só prospera baseado em uma visão mágica de mundo.",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 227,
+        "texto": "O objetivo é prejudicar e depreciar qualquer grupo que conteste o modo como Putin age em seu país",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 228,
+        "texto": "O autor usa em seu livro todas as artimanhas possíveis para degradar e depreciar",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 13
+    },
+    {
+        "id": 229,
+        "texto": "Essa papel de depreciar o adversário em ano eleitoral está fora de moda.",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 230,
+        "texto": "Agora em a Alemanha alguém é recompensado por depreciar as mulheres",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 231,
+        "texto": "Não quero depreciar o imóvel",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 232,
+        "texto": "Ele não iria depreciar a classe conservadora americana.",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 233,
+        "texto": "Existe a tendência a depreciar o ensino público",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 234,
+        "texto": "Pai perde guarda de criança por depreciar imagem de a mãe",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 235,
+        "texto": "Confie em a sua capacidade e pare de se depreciar",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 236,
+        "texto": "Negueba evita depreciar Flamengo",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 237,
+        "texto": "Depreciar a mulher que quer ser mãe é uma distorção",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 238,
+        "texto": "Pare de se depreciar e confie mais em as suas habilidades",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 239,
+        "texto": "A equipe de jurados de os reality shows erra a o depreciar de forma pouco encorajadora os candidatos",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 240,
+        "texto": "Um carro pode depreciar até 40% em um ano",
+        "verbo_alvo": "depreciar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 241,
+        "texto": "Não podemos desprezar os gorjeios de as palavras.",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 242,
+        "texto": "Não podemos desprezar a espécie humana",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 243,
+        "texto": "Por isso não faz sentido desprezar a isonomia para que mulheres não apanhem",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 244,
+        "texto": "Hoje as estrelas lembram que você nunca deve desprezar o amor.",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 245,
+        "texto": "Ele também começa a colocar a sua opinião como verdade e a desprezar a de o parceiro",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 12
+    },
+    {
+        "id": 246,
+        "texto": "Jô vai desprezar o pai.",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 247,
+        "texto": "Hoje a gente não pode desprezar a tecnologia que está disponível em o mundo todo.",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 248,
+        "texto": "Ela fazia bem em me desprezar",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 249,
+        "texto": "Não deve desprezar os sentimentos de os eleitores.",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 250,
+        "texto": "Bolton é conhecido por desprezar Cuba",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 251,
+        "texto": "Kalil faz questão de desprezar o apoio de partidos e de políticos avulsos",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 252,
+        "texto": "Não sabia que era infantilidade desprezar o vácuo!",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 253,
+        "texto": "Ninguém deve desprezar uma medalha olímpica.",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 254,
+        "texto": "O advogado não pode ser dar a o luxo de desprezar a mídia social.",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 255,
+        "texto": "Padilha diz a Marília que não vai desprezar o dinheiro de a família Lopo.",
+        "verbo_alvo": "desprezar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 256,
+        "texto": "A ideia é estimar como podemos fazer robôs para jogos,",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 257,
+        "texto": "O gerente jurídico disse que a empresa não chegou a estimar o custo de eventual remoção de os moradores.",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 258,
+        "texto": "Rochitte não sabe estimar em quanto tempo esse exame poderá ser utilizado por os hospitais brasileiros",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 259,
+        "texto": "Nossas descobertas irão ajudar pesquisadores a estimar o impacto de a doença em a saúde pública",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 260,
+        "texto": "Precisamos fazer mais pesquisas para estimar a densidade populacional de a espécie",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 261,
+        "texto": "A proprietária não soube estimar o quanto espera com as vendas em este ano.",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 262,
+        "texto": "É difícil estimar quantos buracos existam em Bauru hoje.",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 263,
+        "texto": "Ele não soube estimar a quantidade de profissionais que aderiram a a greve",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 264,
+        "texto": "Bandeira de Mello não quis estimar nenhum valor",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 265,
+        "texto": "Ele disse que é difícil estimar em o momento o total semeado em o Estado em a safra 2017/18.",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 266,
+        "texto": "Modelos computacionais são usados para estimar possíveis mortes em um grande terremoto.",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 267,
+        "texto": "O governo catalão diz não poder estimar o número de policiais enviados por Madri",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 268,
+        "texto": "As partes envolvidas têm evitado estimar um total para o acordo",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 269,
+        "texto": "Você pode estimar bom dia",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 270,
+        "texto": "Os organizadores de o evento não quiseram estimar o público de o evento",
+        "verbo_alvo": "estimar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 271,
+        "texto": "Pesquise como é idolatrar uma vaca",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 272,
+        "texto": "Vamos parar com essa mania de idolatrar o cara só porque é estrangeiro",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 273,
+        "texto": "A mulher de Peixes tende a fantasiar e idolatrar o parceiro.",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 274,
+        "texto": "Idolatrar ou enaltecer políticos é sinal de incapacidade de discernimento crítico.",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 275,
+        "texto": "Vou sempre idolatrar e elogiar os gênios que vi jogar",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 276,
+        "texto": "Comecei a idolatrar o Mike Tyson",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 277,
+        "texto": "Os principais partidos continuam a idolatrar seus líderes",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 278,
+        "texto": "Meu jeito de idolatrar é contido",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 279,
+        "texto": "A grande massa parece idolatrar e adorar este desgoverno.",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 280,
+        "texto": "Estátuas são usadas para idolatrar falsos deuses",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 281,
+        "texto": "Bolsonaro pode idolatrar quem quer que seja.",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 282,
+        "texto": "Os torcedores de o Cerro parecem idolatrar outros jogadores.",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 283,
+        "texto": "É apenas parte de a natureza humana idolatrar estereótipos.",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 284,
+        "texto": "Vinicius Silvestre diz idolatrar Jailson",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 285,
+        "texto": "Um de os jovens que passou a idolatrar o arqueiro de 35 anos é Vinicius Silvestre.",
+        "verbo_alvo": "idolatrar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 286,
+        "texto": "Vamos louvar a vida.",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 287,
+        "texto": "O general Mourão cuidou de louvar os atributos de o filho.",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 288,
+        "texto": "Inicialmente devemos reconhecer e louvar o zelo de o Ministério Público em a defesa de o patrimônio público",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 289,
+        "texto": "Só Me Resta Louvar",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 290,
+        "texto": "Eu vejo todos os motivos para louvar a Deus.",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 291,
+        "texto": "O Salmo 136 é um convite para render graças e louvar a Yavé",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 292,
+        "texto": "Deixaremos de louvar ditaduras assassinas",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 293,
+        "texto": "Você começa a louvar a Deus e se empolga.",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 294,
+        "texto": "O povo era devoto e continuou a louvar o sagrado em as margens de o rio.",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 295,
+        "texto": "Eu não vou louvar um Deus que é homofóbico",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 296,
+        "texto": "Não deixaremos de louvar e ter fé por o medo de essas intolerâncias.",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 297,
+        "texto": "É importante louvar o belo trabalho técnico de a produção.",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 298,
+        "texto": "Deveríamos então louvar a atitude de o prefeito?",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 299,
+        "texto": "Depois a gente vai louvar a o Senhor",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 300,
+        "texto": "É de louvar todas as iniciativas que ousam inquietar a mente criativa de o ser humano",
+        "verbo_alvo": "louvar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 301,
+        "texto": "Enrico foi procurar- la e a aconselha a não aborrecer Marion.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 302,
+        "texto": "O segredo de aborrecer é dizer tudo.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 303,
+        "texto": "Provará que essas mudanças não vieram para aborrecer sua alma.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 304,
+        "texto": "Por mais que eles pudessem se aborrecer com essas histórias.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 305,
+        "texto": "Roteirista de cinema já teria acabado com ela para não aborrecer os espectadores.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 306,
+        "texto": "Sobre a arte de aborrecer relatando suas viagens.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 307,
+        "texto": "Isso parece aborrecer certos senhores.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 308,
+        "texto": "Não queremos esticar a série inutilmente nem aborrecer as pessoas.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 309,
+        "texto": "Investigadores relatam que Sophia foi morta após aborrecer o pai.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 310,
+        "texto": "Porque tem a mente de um cientista e vai se aborrecer em o colégio.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 311,
+        "texto": "Parece se aborrecer com a arma.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 312,
+        "texto": "Mostrava notável capacidade de aborrecer o Palácio de Buckingham.",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 313,
+        "texto": "Tony e Léo são inevitáveis e ele diz não se aborrecer com isto",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 314,
+        "texto": "Como vou me aborrecer com isso",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 315,
+        "texto": "Esse é só mais um argumento para aborrecer quem defende os novos tribunais",
+        "verbo_alvo": "aborrecer",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 316,
+        "texto": "Jornalismo é afligir os poderosos e dar poder a os aflitos",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 317,
+        "texto": "Paula não quis afligir as suspeitas de seu marido",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 318,
+        "texto": "João fez Paula afligir o seu marido",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 319,
+        "texto": "uma vez que se trata de afligir um de os maiores bens de a humanidade",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 320,
+        "texto": "além de afligir ainda mais os envolvidos em episódio triste de a contingência humana",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 321,
+        "texto": "Nosso objetivo nunca foi afligir ninguém",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 322,
+        "texto": "O estudo reforçou um consenso sobre as secas que deverão afligir o sudoeste",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 323,
+        "texto": "O calote de títulos públicos não deve afligir o pequeno investidor",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 324,
+        "texto": "Nada que chegue a afligir Romildo Bolzan Júnior",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 325,
+        "texto": "Memórias de tempos melhores podem afligir você.",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 326,
+        "texto": "Mas o que mais deve afligir o consumidor são eventuais manutenções corretivas.",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 327,
+        "texto": "O que mais deve afligir é o risco que corre o regime democrático",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 328,
+        "texto": "a tristeza vem afligir uma parte de a população",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 329,
+        "texto": "função primordial de o jornal é confortar os aflitos e afligir os acomodados",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 330,
+        "texto": "o jornalismo é feito para afligir os poderosos e dar poder a os aflitos",
+        "verbo_alvo": "afligir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 331,
+        "texto": "O presidente fez Brizola abalar o povo carioca.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 332,
+        "texto": "Nem mesmo a crise iniciada em 2008 parece abalar o mundo financeiro clandestino.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 333,
+        "texto": "A crise econômica de 2009 continua a abalar a economia.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 334,
+        "texto": "E qualquer coisa é motivo para abalar a harmonia de o casal.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 335,
+        "texto": "Cristo foi um homem que foi capaz não só de abalar as bases.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 336,
+        "texto": "mas nada vai abalar minha fé.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 337,
+        "texto": "Enzo cresceu e tem todos os requisitos para abalar corações.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 338,
+        "texto": "Escola que veio abalar as grandes de o carnaval carioca.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 339,
+        "texto": "Thaíssa Carvalho promete abalar as estruturas de os homens em Flor de o Caribe.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 340,
+        "texto": "Receita ideal para esgotar a paciência de a torcida e abalar até o prestígio de Arsène Wenger.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 341,
+        "texto": "visando abalar o estado psicológico de os prisioneiros.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 342,
+        "texto": "Tenho vindo de uma sucessão de fatos que querem abalar minha carreira.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 343,
+        "texto": "O imenso prejuízo de essa medida irá abalar não somente o esporte de o Brasil.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 344,
+        "texto": "Uma certa festa ano passado não foi o suficiente para abalar a popularidade de príncipe Harry.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 345,
+        "texto": "Um novo escândalo irá abalar a Monarquia.",
+        "verbo_alvo": "abalar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 346,
+        "texto": "A falta de suporte começou a chatear Simaria",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 347,
+        "texto": "Sem se chatear com o fato de ter feito possíveis inimizades em a casa",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 348,
+        "texto": "mas ela realmente ficou com medo disso chatear o marido",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 349,
+        "texto": "o herói não quis chatear o amigo",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 350,
+        "texto": "a musa admitiu se chatear com os episódios",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 351,
+        "texto": "Dá pra lamentar e se chatear um pouco com o resultado",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 352,
+        "texto": "Ao invés de se chatear por causa de os antagonismos",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 353,
+        "texto": "Temer está muito desgastado e ninguém vai se chatear por isso",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 354,
+        "texto": "Ao invés de se chatear por causa de os antagonismos",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 355,
+        "texto": "Sei que vai chatear muitas pessoas",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 356,
+        "texto": "Ela chegou a se chatear com o apelido",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 357,
+        "texto": "A Casa Branca deu passinhos de bebê para não chatear a NRA",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 358,
+        "texto": "E com uma tela de essa fica difícil se chatear.",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 359,
+        "texto": "A Fiel torcida teve inúmeras razões para se chatear com o empate",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 360,
+        "texto": "Eu hoje não vou a o Vasco para evitar de me chatear",
+        "verbo_alvo": "chatear",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 361,
+        "texto": "Estamos tentando comover o PCdoB e o PSB",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 362,
+        "texto": "Não é difícil comover o público com filme de criança",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 363,
+        "texto": "Não é isso que vai comover o Governo a tomar suas decisões.",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 364,
+        "texto": "Impossível não se comover com a dor de as famílias.",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 365,
+        "texto": "O presidente disse que é difícil não se comover diante de esse cenário caótico",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 366,
+        "texto": "A catástrofe passou a comover não só equipes de socorro",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 367,
+        "texto": "Não é errado se comover com animais",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 368,
+        "texto": "E não temos a chance de em os comover ou em os solidarizar.",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 369,
+        "texto": "A atriz conseguiu comover o público em a pele de a inconsequente Olívia.",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 370,
+        "texto": "Após comover os ídolos com uma versão de a música favorita",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 371,
+        "texto": "É bom saber que somos capazes de em os comover com a tragédia humana",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 372,
+        "texto": "Rivalda finge estar machucada para comover Olavo.",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 373,
+        "texto": "Dá para sentir ódio e a o mesmo tempo se comover com as dificuldades de a vida de um vilão?",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 374,
+        "texto": "Tim é um playlist capaz de comover até os mais refratários",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 375,
+        "texto": "Depois de comover o público e ganhar inúmeros elogios por sua atuação",
+        "verbo_alvo": "comover",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 376,
+        "texto": "Eu detesto decepcionar os fãs",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 377,
+        "texto": "Não posso decepcionar o que já construí",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 378,
+        "texto": "Não podia decepcionar minha família.",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 379,
+        "texto": "As vezes você irá se decepcionar e pensar que nada mais é possível",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 380,
+        "texto": "Eu nunca quis decepcionar minha família.",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 381,
+        "texto": "Os fãs de música podem se decepcionar com a falta de essa funcionalidade",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 382,
+        "texto": "E eu fico com tanto medo tanto medo de decepcionar que fico preso em mim mesmo.",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 383,
+        "texto": "Prefiro decepcionar com a verdade de o que magoar",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 384,
+        "texto": "As pessoas vão te decepcionar e a as vezes quem vai fazer isso é a pessoa mais próxima de você",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 385,
+        "texto": "você pode se decepcionar com amigos em o começo de o dia",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 386,
+        "texto": "o Atlético Mineiro voltou a decepcionar o seu torcedor",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 387,
+        "texto": "O Arsenal voltou a decepcionar sua torcida em este domingo.",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 388,
+        "texto": "O ex-senador fez o compromisso de jamais decepcionar nossos tucanos",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 389,
+        "texto": "time de Fábio Carille voltou a decepcionar a fiel",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 390,
+        "texto": "Um ponto que pode decepcionar é seu tamanho e peso",
+        "verbo_alvo": "decepcionar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 391,
+        "texto": "Também contribuiu para deprimir o mercado",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 392,
+        "texto": "O idoso já tende a deprimir por conta de o processo de isolamento natural",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 393,
+        "texto": "A análise de a situação atual tem como em os deprimir.",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 394,
+        "texto": "Lula ainda não encontrou razões para se deprimir",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 395,
+        "texto": "Fiquei com medo de me deprimir por desistir de o futebol",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 396,
+        "texto": "Fique de olho em a carga viral e pegue leve para não deprimir a imunidade.",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 12
+    },
+    {
+        "id": 397,
+        "texto": "Tenha atenção a alguns pontos antes de se deprimir",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 398,
+        "texto": "Siga aplicando uma medida que vai deprimir a economia",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 399,
+        "texto": "Dois fatores estão se somando para deprimir a votação de vereadores.",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 400,
+        "texto": "A produção excedente poderia deprimir os preços locais",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 401,
+        "texto": "Viu Vargas se deprimir moralmente sob ataques impiedosos",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 402,
+        "texto": "A decisão vai deprimir ainda mais a economia",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 403,
+        "texto": "Não dá para gerar desemprego ou deprimir salários.",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 404,
+        "texto": "Em vez de se deprimir com tarefas inglórias.",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 405,
+        "texto": "Em conjunto tendem a deprimir os preços internacionais",
+        "verbo_alvo": "deprimir",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 406,
+        "texto": "começou a se encantar com o samba",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 407,
+        "texto": "O quarteto promete encantar o público",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 408,
+        "texto": "Não canso de me encantar com essa paisagem",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 409,
+        "texto": "é possível se encantar com diversas espécies de pássaros",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 410,
+        "texto": "Existe uma casa em a árvore que irá encantar os fãs de Tolkien.",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 411,
+        "texto": "Ele vai se encantar de verdade por a Latifa.",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 412,
+        "texto": "Escolheu meu aniversário pra se encantar.",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 413,
+        "texto": "Ele é capaz de encantar de o mais xucro sindicalista",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 414,
+        "texto": "Foi também quando Éder Militão começou a se encantar por o jogo",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 415,
+        "texto": "Escolha a arma ou armadura que deseja encantar",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 416,
+        "texto": "A fase é auspiciosa para encantar a pessoa desejada",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 417,
+        "texto": "A noviça vai se encan tar por Rock",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 418,
+        "texto": "Anitta resolveu encantar seus seguidores",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 419,
+        "texto": "YouTube promete encantar as crianças em a apresentação em Santa Cruz",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 420,
+        "texto": "Show promete encantar os pequenos em o Teatro Mauá",
+        "verbo_alvo": "encantar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 421,
+        "texto": "Um bloco com muito brilho feito para escandalizar e carnavalizar geral.",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 422,
+        "texto": "Não tinha a intenção de provocar nem escandalizar ninguém.",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 423,
+        "texto": "O século 19 que fugiu de a Tanzânia depois de escandalizar a família real.",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 424,
+        "texto": "A loira evita ser alvo de matérias que possam escandalizar a sua imagem.",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 425,
+        "texto": "A intenção de Serena não era escandalizar Roland Garros com sua roupa",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 426,
+        "texto": "E por que declarações de Trump que deveriam escandalizar o público.",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 427,
+        "texto": "Há quem compete em a propensão de escandalizar com assertivas",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 428,
+        "texto": "Não é a minha intenção escandalizar ninguém",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 429,
+        "texto": "Proferia injúrias bastantes para escandalizar os mais arrojados",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 430,
+        "texto": "Mas não há nenhuma razão para a sociedade se escandalizar com quem não concorda.",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 431,
+        "texto": "Isso deveria escandalizar vocês",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 432,
+        "texto": "150 bilhões não chegavam a escandalizar ninguém",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 433,
+        "texto": "Tais informações foram vazadas para escandalizar a opinião pública.",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 434,
+        "texto": "Não vi ninguém se escandalizar com o comportamento de o deputado.",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 435,
+        "texto": "Parece que a população deixou de se escandalizar.",
+        "verbo_alvo": "escandalizar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 436,
+        "texto": "Não é preciso ir a a China para se horrorizar com a poluição de o ar.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 437,
+        "texto": "O brasileiro não precisa se horrorizar com os números de a guerra civil.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 438,
+        "texto": "pé e focinho de porco pode horrorizar os estetas mais sensíveis.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 439,
+        "texto": "Mas longos o suficiente para horrorizar uma multidão de espectadores.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 440,
+        "texto": "Se você leu até aqui sem se horrorizar de os disparates acima.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 441,
+        "texto": "Cada brasileiro que se horrorizar com alguma barbárie cometida em outro lugar.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 442,
+        "texto": "Quem não se horrorizar é porque não conhece esse tipo de gente.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 443,
+        "texto": "Acho meio hipócrita se horrorizar ou fazer piada com esse tipo de imagem.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 444,
+        "texto": "Em vez de se horrorizar com a violência de o sistema de educação pública.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 445,
+        "texto": "Este incidente deve legitimamente horrorizar.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 446,
+        "texto": "A novela tenta tanto horrorizar a audiencia que se perdeu em o ridiculo.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 447,
+        "texto": "mas como traduzir as frases de ambos sem horrorizar as visitas.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 448,
+        "texto": "Um exemplo de algo que pode horrorizar um leitor ocidental",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 449,
+        "texto": "O caso está a horrorizar o mundo.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 450,
+        "texto": "Vão horrorizar o mundo todo.",
+        "verbo_alvo": "horrorizar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 451,
+        "texto": "A ideia é não se acanhar sob a pressão de a Vila Belmiro.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 452,
+        "texto": "não se acanhar diante de a seleção brasileira.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 453,
+        "texto": "Não se deixe acanhar por ser chamada de chata.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 454,
+        "texto": "não há que se acanhar.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 455,
+        "texto": "quando o Assu ameaçava se acanhar ainda mais em busca de a igualdade.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 456,
+        "texto": "uso esse privilégio para tentar mudar a sociedade em vez de me acanhar diante de as críticas.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 12
+    },
+    {
+        "id": 457,
+        "texto": "Procuradores de a Lava Jato afirmaram em esta segunda-feira que não vão se acanhar com os ataques.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 13
+    },
+    {
+        "id": 458,
+        "texto": "Devem estar lá para acanhar quem tenta entrar sem pagar",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 459,
+        "texto": "Em vez de acanhar os manifestantes.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 460,
+        "texto": "sem se acanhar com a súbita irrupção.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 461,
+        "texto": "mas também é capaz de acanhar aqueles que não gostam muito de soltar a voz.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 462,
+        "texto": "Resta saber se esse ato será capaz de acanhar o clientelismo.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 463,
+        "texto": "os empreendedores não podem se acanhar e ficar em a mesmice",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 464,
+        "texto": "O novato normalmente tem tendência de se acanhar em o trabalho.",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 465,
+        "texto": "A gente não pode se acanhar",
+        "verbo_alvo": "acanhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 466,
+        "texto": "Este caso vai afetar não só quem está iniciando sua vida profissional,",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 467,
+        "texto": "a acusação não chegou a afetar sua reputação.",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 468,
+        "texto": "tudo isso contribuiu para afetar seu legado",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 469,
+        "texto": "Como a possibilidade de extradição de Assange pode afetar o trabalho de o WikiLeaks",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 470,
+        "texto": "Não sei como isso irá afetar o WikiLeaks",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 471,
+        "texto": "vistorias em a rede de distribuição de água poderão afetar o abastecimento em dois bairros",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 472,
+        "texto": "Uma obra de interligação de rede poderá afetar o abastecimento em o bairro Nações",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 473,
+        "texto": "Isso tudo sem afetar em nada os computadores.",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 474,
+        "texto": "Oscilação de preços pode afetar negócio.",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 475,
+        "texto": "Esse é o tipo de coisa que pode afetar seriamente a imagem de o Brasil.",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 476,
+        "texto": "Além de as tensões entre EUA e Irã que devem afetar os preços de o petróleo",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 477,
+        "texto": "O Consórcio tem que em os explicar onde esse corte vai afetar o atendimento",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 478,
+        "texto": "Mudanças não devem afetar relacionamento com Brasil",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 479,
+        "texto": "Diabetes descompensada pode afetar a função ovulatória",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 480,
+        "texto": "Toda essa patologia pode afetar a função de a tireoide",
+        "verbo_alvo": "afetar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 481,
+        "texto": "a falta de vontade de o líder Alex Turner de agitar a multidão deixa a apresentação quase morna.",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 482,
+        "texto": "TOP promete agitar o Autódromo de Interlagos com Trench",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 483,
+        "texto": "a plataforma de streaming promete agitar o mundo de o entretenimento",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 484,
+        "texto": "São sete DJs que vão agitar a pista até o dia amanhecer",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 485,
+        "texto": "voltaram a agitar a imprensa internacional com detalhes de a papelada judicial",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 486,
+        "texto": "uma notícia promete agitar ainda mais a situação",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 487,
+        "texto": "Mais uma atração foi confirmada para agitar a Festa People",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 488,
+        "texto": "Seu Antônio em a Serra promete agitar o Agreste pernambucano com muita música",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 489,
+        "texto": "a carta de Bento voltou a agitar o Vaticano",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 490,
+        "texto": "A mídia mentirosa está fazendo de tudo para agitar e deixar as pessoas bravas",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 491,
+        "texto": "Apresenta em este sábado a as 19 horas e promete agitar o palco",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 492,
+        "texto": "o quarteto se prepara para agitar cinco cidades",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 493,
+        "texto": "Para agitar as noites em o prédio",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 494,
+        "texto": "o evento que celebra a cultura nordestina promete agitar a vizinhança",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 495,
+        "texto": "Seu charme vai agitar a conquista",
+        "verbo_alvo": "agitar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 496,
+        "texto": "Jacks começou a se desinteressar de tudo",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 497,
+        "texto": "são poucas as falhas que realmente podem desinteressar o jogador",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 498,
+        "texto": "também pode fazer a criança se desinteressar por o aleitamento materno",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 499,
+        "texto": "E quem faz arte não vai se desinteressar",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 500,
+        "texto": "Há algo muito preocupante quando tantos jovens começam a se desinteressar por a escola",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 501,
+        "texto": "Jovens podem se desinteressar por área rural por falta de acessibilidade",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 502,
+        "texto": "O segundo semestre viu a Odebrecht se desinteressar por o Maracanã",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 503,
+        "texto": "Troca de ataques faz eleitor se desinteressar por processo eleitoral",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 504,
+        "texto": "Pedir acima de o praticado pode desinteressar a empresa",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 505,
+        "texto": "o desaparecimento de o original a fez se desinteressar em continuar escrevendo",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 506,
+        "texto": "Mas as grandes indústrias provavelmente vão se desinteressar.",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 507,
+        "texto": "induz a a sociedade a se desinteressar por a política.",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 508,
+        "texto": "já que crianças, por exemplo, podem se desinteressar rapidamente por a neve.",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 509,
+        "texto": "quando pareceu se desinteressar por o jogo já em a metade de o segundo tempo.",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 510,
+        "texto": "Parte de esses milhões vai se desinteressar por a liga americana",
+        "verbo_alvo": "desinteressar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 511,
+        "texto": "Ele começou a alucinar",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 512,
+        "texto": "a mãe se envolve com os fantasmas de o local e começa a alucinar",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 13
+    },
+    {
+        "id": 513,
+        "texto": "BoJack passa a alucinar e confundir o que é real e o que não é",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 514,
+        "texto": "Kutcher ainda falou que começou a alucinar em o segundo dia",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 515,
+        "texto": "ele começou a alucinar e exibir comportamentos paranoicos",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 516,
+        "texto": "Acabando por alucinar sonhando com água",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 517,
+        "texto": "acaba sendo atingida por o vilão com a droga que a faz alucinar com seus piores medos",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 12
+    },
+    {
+        "id": 518,
+        "texto": "o Narrador começa a alucinar e a imaginar uma versão de o Tyler verdadeiro em o final",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 519,
+        "texto": "E alucinar as amigas em uma festa",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 520,
+        "texto": "em a noite de quarta-feira comecei a alucinar.",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 521,
+        "texto": "A pessoa isolada passa a delirar e alucinar por falta de estímulos externos",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 522,
+        "texto": "O ponto sobre ser incapaz de alucinar é importante",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 523,
+        "texto": "A imagem de o seu corpo nu em a tela de o computador o fará alucinar",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 15
+    },
+    {
+        "id": 524,
+        "texto": "E essa experiência seria tão desorientadora que o voluntário começa a alucinar.",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 525,
+        "texto": "começou a ouvir vozes e a alucinar",
+        "verbo_alvo": "alucinar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 526,
+        "texto": "É difícil não se emocionar com o reencontro entre os dois irmãos.",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 527,
+        "texto": "não deixava de se emocionar quando ouvia o colega Sérgio Mamberti comentar,",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 528,
+        "texto": "Superação é capaz de emocionar",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 529,
+        "texto": "O toque de o clarim volta a emocionar os presentes",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 530,
+        "texto": "vai se emocionar ele em a conversa com Geraldo",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 531,
+        "texto": "Não tem como não se emocionar com a história de Jesus.",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 532,
+        "texto": "o espetáculo promete emocionar centenas de pessoas que prestigiarão a apresentação",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 533,
+        "texto": "a intenção é emocionar os expectadores",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 534,
+        "texto": "Essa beleza promete emocionar o público presente",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 535,
+        "texto": "música impactante e de grande qualidade para emocionar todos os presentes.",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 536,
+        "texto": "algo que fez Simone se emocionar.",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 537,
+        "texto": "Eu iria me emocionar e ver em a hora.",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 538,
+        "texto": "O que faz diferença em um móvel é sua capacidade de emocionar",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 539,
+        "texto": "Meu objetivo é emocionar as pessoas",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 540,
+        "texto": "o grupo cover promete emocionar o público com o repertório especial",
+        "verbo_alvo": "emocionar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 541,
+        "texto": "a Apple arrisca enfurecer bancos",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 542,
+        "texto": "poderá enfurecer a comunidade árabe",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 543,
+        "texto": "os agricultores temiam enfurecer os talibãs",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 544,
+        "texto": "Agora você terá que se enfurecer por justiça e liberdade",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 545,
+        "texto": "o anúncio poderá enfurecer Nissan e Mitsubishi",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 546,
+        "texto": "Isso pode enfurecer Pequim",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 547,
+        "texto": "Betina faz de tudo para Cairu se enfurecer com Marocas",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 548,
+        "texto": "a internet está cheia de pessoas que querem apenas desestabilizar as discussões e enfurecer os outros",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 13
+    },
+    {
+        "id": 549,
+        "texto": "Não vão prender para não enfurecer a maioria de o povo",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 550,
+        "texto": "É que a Presidência é capaz de enfurecer mesmo o melhor de os homens",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 551,
+        "texto": "uma guerra comercial com os chineses vai enfurecer um amplo grupo de países",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 552,
+        "texto": "apesar de ter tomado a decisão de enfurecer todo mundo",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 553,
+        "texto": "Quebrar esses acordos iria enfurecer diversas instituições",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 554,
+        "texto": "Caso minha sogra comece a se enfurecer",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 555,
+        "texto": "Os comentários devem enfurecer a Pequim",
+        "verbo_alvo": "enfurecer",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 556,
+        "texto": "os escorpianos não têm medo é de se apaixonar e se envolver.",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 557,
+        "texto": "cada toque de o instrumento e a fez se apaixonar por jazz.",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 558,
+        "texto": "assim como pedalava após se apaixonar por bicicross a o assistir o filme.",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 559,
+        "texto": "conhecer outros gêneros e me apaixonar por as reflexões críticas.",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 560,
+        "texto": "é que as pessoas se apaixonam por as suas tecnologias.",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 561,
+        "texto": "Ao conhecer Antonio e se apaixonar por ele.",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 562,
+        "texto": "E se eu dissesse que posso fazer você se apaixonar por mim",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 563,
+        "texto": "Tudo vai bem até Samuels se apaixonar por a dançarina Hortense",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 564,
+        "texto": "Imagina se apaixonar todos os dias por a mesma pessoa",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 565,
+        "texto": "porque a criança vai se apaixonar em a hora",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 566,
+        "texto": "A convivência diária fará o milionário se apaixonar por a moça e recuperar",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 567,
+        "texto": "O aviso aqui é reservar o coração e evitar se apaixonar por uma pessoa",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 568,
+        "texto": "Tenha cuidado com se apaixonar rápido demais.",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 569,
+        "texto": "Depois de conhecer e se apaixonar por a princesa Jasmine",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 570,
+        "texto": "Só que Régis deve se apaixonar verdadeiramente por Maria de a Paz",
+        "verbo_alvo": "apaixonar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 571,
+        "texto": "O espanhol, contudo, diz não desanimar diante de a nova lesão",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 572,
+        "texto": "os concurseiros não podem desanimar",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 573,
+        "texto": "Débora enaltece Filipa em a aula de dança e tenta desanimar Poliana sobre seu desempenho",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 574,
+        "texto": "ele recomenda também a não desanimar",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 575,
+        "texto": "os compradores não parecem desanimar os recentes donos de o Sonic.",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 576,
+        "texto": "Mas para o goleiro leonino não é o momento de desanimar",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 577,
+        "texto": "fé em que o menino continue vivo os obriga a não desanimar",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 11
+    },
+    {
+        "id": 578,
+        "texto": "não precisa necessariamente desanimar",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 579,
+        "texto": "Nem as dificuldades são suficientes para desanimar os jovens músicos:",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 580,
+        "texto": "O importante é não desanimar logo em a primeira queda.",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 581,
+        "texto": "Isso não parece desanimar Cunliffe",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 582,
+        "texto": "os desenvolvedores tomaram o cuidado de não impor desafios que possam desanimar o paciente.",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 583,
+        "texto": "O conselho de ele é não desanimar com as críticas",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 584,
+        "texto": "Valentim garantiu que o momento não é de desanimar",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 585,
+        "texto": "Quando uma chuva mais pesada ameaçou desanimar o show",
+        "verbo_alvo": "desanimar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 586,
+        "texto": "Quem é contra não consegue desgostar de verdade",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 587,
+        "texto": "Ninguém é obrigado a gostar ou desgostar de a ou b.",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 588,
+        "texto": "Ele não precisa desgostar de o Haddad pra defender o Ciro",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 589,
+        "texto": "mas essa discórdia política não é motivo para desgostar como atleta também",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 590,
+        "texto": "Além de desgostar de o ambiente multilateral",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 591,
+        "texto": "O nobre leitor pode até desgostar de o jeito como ele conduz seus programas",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 592,
+        "texto": "Eu afirmo insistentemente que eu prefiro desgostar de o que ferrugem",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 593,
+        "texto": "Quem o rejeitava não passou a desgostar mais por causa de o ato de Moro",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 594,
+        "texto": "esses só começaram a desgostar quando ele se cansou de ser um vice decorativo",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 595,
+        "texto": "Jardim não esconde desgostar de a Lava-Jato",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 596,
+        "texto": "É difícil achar motivos para desgostar de o filme.",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 597,
+        "texto": "para que toda a sociedade comece a desgostar de declarações duvidosas",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 598,
+        "texto": "Eu não consigo desgostar de ela",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 599,
+        "texto": "Não parece meio imbecil gostar ou desgostar de Serra",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 600,
+        "texto": "E não o fez para não desgostar o imperador",
+        "verbo_alvo": "desgostar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 601,
+        "texto": "Três meses depois de a empresa quebrar",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 602,
+        "texto": "A expectativa com o grande movimento em as Cataratas é quebrar um novo recorde",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 603,
+        "texto": "A tecnologia pode ajudar a arte a quebrar certos padrões",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 604,
+        "texto": "Vamos quebrar o monopólio em a distribuição",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 605,
+        "texto": "Queremos quebrar os tabus",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 606,
+        "texto": "a empresa defende que irá quebrar o seu monopólio",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 607,
+        "texto": "STF vai quebrar muito em breve",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 608,
+        "texto": "A crise veio quebrar o mito de que a segurança privada cresce com a criminalidade",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 609,
+        "texto": "mas o esporte não pode quebrar você em o meio",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 610,
+        "texto": "Sempre pensei em como quebrar os padrões de as coisas",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 611,
+        "texto": "Precisamos quebrar o ciclo de escassez",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 612,
+        "texto": "Galactus ganha poderes capazes de quebrar o universo",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 613,
+        "texto": "Vão quebrar a cara",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 614,
+        "texto": "Para quebrar o peso de a história",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 615,
+        "texto": "Ouro Verde vem para quebrar a sequência de novelas turcas",
+        "verbo_alvo": "quebrar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 616,
+        "texto": "Só fiz Chutar",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 617,
+        "texto": "mas demorou tanto a chutar que o zagueiro Quintero conseguir o corte",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 618,
+        "texto": "é ir chutar cachorro morto",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 619,
+        "texto": "Após arrancar e chutar de pé esquerdo",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 620,
+        "texto": "além de chutar várias cadeiras em a unidade de saúde",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 621,
+        "texto": "a o dar dribles mais curtos e chutar com efeito",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 622,
+        "texto": "Helinho conseguiu chutar bola em a trave",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 623,
+        "texto": "Luciano conseguiu chutar para fora uma bola",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 624,
+        "texto": "Não é o momento de chutar",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 625,
+        "texto": "Quando Alan ia chutar, a defesa afastou.",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 626,
+        "texto": "Para mim eu nunca mais ia chutar uma bola",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 627,
+        "texto": "motociclista bêbado tenta chutar policial",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 628,
+        "texto": "Rodrigo Caio apareceu sozinho para chutar e tirar de Cássio",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 629,
+        "texto": "exigia os passes quando o companheiro poderia chutar a o gol",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 630,
+        "texto": "Aránguiz aproveita para chutar para o fundo de o gol",
+        "verbo_alvo": "chutar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 631,
+        "texto": "Depois de cortar o atacante Neymar",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 632,
+        "texto": "Enquanto as unidades se articulam para cortar cerca de 30 produtos",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 633,
+        "texto": "mas a zaga de o Catar consegue cortar para fora",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 634,
+        "texto": "Bom dia para cortar relacionamentos tóxicos",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 635,
+        "texto": "Banco Central deverá cortar a Selic em breve,",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 636,
+        "texto": "Ordem em o SBT é cortar 20% de todos os departamentos",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 637,
+        "texto": "temos que cortar em a carne",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 638,
+        "texto": "Domínguez saiu de carrinho pra cortar",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 639,
+        "texto": "Cortar o cabelo é uma delícia",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 640,
+        "texto": "Eu estava a fim de cortar o cabelo há muito tempo",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 641,
+        "texto": "o filme tem um um desfecho de cortar o coração",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 642,
+        "texto": "ele vai cortar o microfone de quem exceder o tempo reservado",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 643,
+        "texto": "A imagem é de cortar o coração",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 644,
+        "texto": "foi necessário cortar o cabelo de Isabela",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 645,
+        "texto": "Distrito Federal perderão a chance de cortar a o menos a a metade o déficit previdenciário",
+        "verbo_alvo": "cortar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 646,
+        "texto": "sente uma vontade quase incontrolável de esmagar coisas fofas",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 647,
+        "texto": "CEO com uma ambição sociopata de esmagar a concorrência.",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 648,
+        "texto": "a verdade é que a intenção é esmagar o autônomo",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 649,
+        "texto": "Se você esmagar ESTA governo",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 650,
+        "texto": "Esse tubarão tinha dentes que eram bons para capturar peixes pequenos ou esmagar caracóis e lagostim",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 12
+    },
+    {
+        "id": 651,
+        "texto": "tentaram esmagar a liberdade de expressão",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 652,
+        "texto": "Os agressores ainda usaram a porta de o carro para esmagar o braço de a vítima",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 653,
+        "texto": "Essa lesão traumática também pode esmagar um nervo",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 654,
+        "texto": "O Brasil tem condições de esmagar a Venezuela com uma coisa chamada",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 655,
+        "texto": "este grupo vai esmagar a imoralidade",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 656,
+        "texto": "A rotina ameaça esmagar seus sonhos",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 657,
+        "texto": "Michael precisa esmagar a concorrência",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 658,
+        "texto": "Tem que esmagar mesmo que ele é gostoso",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 659,
+        "texto": "um jogo mais focado em narrativa e menos em esmagar botões de o controle",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 660,
+        "texto": "A pedra gigantesca que ameaça esmagar Indy",
+        "verbo_alvo": "esmagar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 661,
+        "texto": "Minha vontade foi rasgar o vestido em a frente de todos",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 662,
+        "texto": "Depois se pendurou com o cotovelo de a cesta para rasgar a camiseta",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 663,
+        "texto": "sobrevive após seu pai aparecer para rasgar o pescoço de o morto-vivo",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 664,
+        "texto": "o zumbi Matias ressurge para rasgar a carne de um homem desconhecido",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 665,
+        "texto": "Ele sofreu a lesão depois de seu tênis de a marca se rasgar",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 12
+    },
+    {
+        "id": 666,
+        "texto": "Valéria diz que não teria motivo pra rasgar",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 667,
+        "texto": "Se ele queria rasgar o voto tinha a Gabi",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 668,
+        "texto": "Vou votar em você para rasgar o voto",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 669,
+        "texto": "um cheque em branco para rasgar a Constituição de os Estados Unidos",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 670,
+        "texto": "Georges Fassolas avalia que rasgar a caderneta",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 671,
+        "texto": "O autor concede a si mesmo 15 minutos para se rasgar e se descabelar",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 672,
+        "texto": "Delfino optou em rasgar o contrato",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 673,
+        "texto": "Aí começaram a rasgar os saquinhos",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 674,
+        "texto": "Por juízes que ajudaram a rasgar a constituição que estava em vigor",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 675,
+        "texto": "Famoso por rasgar a placa com o nome de Marielle Franco",
+        "verbo_alvo": "rasgar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 676,
+        "texto": "é preciso perfurar a pele de o bicho-de-seda com os dentes",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 677,
+        "texto": "perfurar o túnel de 60 metros levaria entre 12 e 15 horas",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 678,
+        "texto": "Depois de precisarem perfurar novamente o túnel",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 679,
+        "texto": "mas corria o risco de perfurar a minha bexiga",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 680,
+        "texto": "o trabalho com as máquinas pesadas permite perfurar o solo",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 681,
+        "texto": "Conseguem se locomover em terrenos úmidos e perfurar a lama",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 682,
+        "texto": "companhias estrangeiras começaram a perfurar poços de petróleo",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 683,
+        "texto": "ele pode perfurar a laringe de o animal",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 684,
+        "texto": "namorada teria tentado perfurar um de os bolsonaristas",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 685,
+        "texto": "Os bombeiros e engenheiros precisaram perfurar um poço paralelo",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 686,
+        "texto": "O Noble Tom Madden começou a perfurar o poço Yellowtail",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 687,
+        "texto": "O acúmulo de essas substâncias pode perfurar o ânodo",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 688,
+        "texto": "a equipe apresentou dificuldades para perfurar o forte",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 689,
+        "texto": "tudo isso interrompeu os sonhos de os cientistas de perfurar mais fundo",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 690,
+        "texto": "O plano era para perfurar mais profundamente de o que os soviéticos",
+        "verbo_alvo": "perfurar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 691,
+        "texto": "O modelo matemático mostra ainda que a Argentina deve bater a Venezuela",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 692,
+        "texto": "Quando Coutinho já se preparava para bater",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 693,
+        "texto": "Coube a Gabriel Jesus bater o pênalti de a classificação",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 694,
+        "texto": "Agora eu falei que ia bater",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 695,
+        "texto": "um de os responsáveis por bater um de os pênaltis",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 696,
+        "texto": "A realidade é que estamos em o caminho para bater um recorde",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 697,
+        "texto": "Já temos pedidos de veículos suficientes para bater um recorde",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 698,
+        "texto": "A situação ocorreu após um carro de passeio bater em um poste",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 699,
+        "texto": "Onda de calor faz temperatura bater recorde em junho",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 700,
+        "texto": "Motorista foge sem prestar socorro depois de bater em motociclista",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 701,
+        "texto": "as cotações de o milho chegaram a bater em seu limite de baixa",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 702,
+        "texto": "Tu joga os nomes e os jogadores se propõem a bater",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 703,
+        "texto": "A expectativa agora passou a ser bater a marca de 15 mil",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 704,
+        "texto": "Quatro pessoas morrem após van de prefeitura bater",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 705,
+        "texto": "Miró deverá bater chapa com Nelson Lambach",
+        "verbo_alvo": "bater",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 706,
+        "texto": "É preciso amassar bem até que fique em ponto de desgrude.",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 707,
+        "texto": "eles ameaçam amassar o seu carro",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 708,
+        "texto": "o próximo passo é amassar bem a fruta com um garfo",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 709,
+        "texto": "Claro que além de amassar ele também vibra",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 710,
+        "texto": "É preciso erguer as calças e amassar o barro",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 711,
+        "texto": "Uma dica para não amassar o cabelo",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 712,
+        "texto": "estes notebooks podem amassar e ganhar arranhões",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 713,
+        "texto": "não quero riscar ou amassar o meu carro.",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 714,
+        "texto": "comece a amassar até que a mandioca se esfarinhe",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 715,
+        "texto": "Se não houver sobreposição pode amassar a base",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 716,
+        "texto": "Eu digo que deletar um arquivo é como amassar um papel.",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 717,
+        "texto": "Um de os tiros chegou a amassar o portão metálico",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 718,
+        "texto": "É preciso amassar a massa por aproximadamente 10 minutos.",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 719,
+        "texto": "Como abrir as portas sem amassar o outro veículo",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 720,
+        "texto": "Assim como dobrar ou amassar um plástico",
+        "verbo_alvo": "amassar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 721,
+        "texto": "A pressão popular acabaria por derrubar o Executivo",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 722,
+        "texto": "Considera que o programa ajudou a derrubar alguns preconceitos",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 723,
+        "texto": "um grupo de militares iniciou uma operação para derrubar o Governo",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 724,
+        "texto": "Os resultados obtidos por a equipe de Frank Keppler deveriam derrubar todas as teorias",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 725,
+        "texto": "o excesso de oferta também ajudou a derrubar o valor",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 726,
+        "texto": "Conseguiu derrubar a condenação",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 727,
+        "texto": "Dois advogados de o Distrito Federal conseguiram derrubar acórdão",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 728,
+        "texto": "O jogador vai a Tristram tentar derrubar essa força.",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 729,
+        "texto": "Órgão não vai derrubar construções",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 730,
+        "texto": "Especialistas explicam que não é comum derrubar um avião",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 731,
+        "texto": "O povo quer derrubar o regime",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 732,
+        "texto": "mas os vereadores manobraram e conseguiram derrubar a lei",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 733,
+        "texto": "Elas podem ceder e te derrubar",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 734,
+        "texto": "Até lá Furnas tentará derrubar a liminar",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 735,
+        "texto": "Os petistas estão furiosos porque a Folha quer derrubar os ministros",
+        "verbo_alvo": "derrubar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 736,
+        "texto": "Um gato selvagem encurralado pode te morder e te arranhar",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 737,
+        "texto": "apesar de as tentativas de os adversários de arranhar sua imagem",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 738,
+        "texto": "Minha preocupação é não arranhar o clima",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 739,
+        "texto": "Também é preciso desprezar nomes e arranhar biografias",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 740,
+        "texto": "Ele chegou a arranhar meu pai",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 741,
+        "texto": "Ensinando o animal a usar apenas estes locais para arranhar",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 742,
+        "texto": "Para arranhar ainda mais a imagem de o clube",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 743,
+        "texto": "Mas quem iria arranhar sua imagem",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 744,
+        "texto": "Ela começou a arranhar minha perna",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 745,
+        "texto": "O material abrasivo pode tirar a proteção a o arranhar a película",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 746,
+        "texto": "Os objetos de arranhar podem ser feitos de materiais como madeira",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 747,
+        "texto": "se a senhora arranhou o meu eu vou arranhar o seu",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 748,
+        "texto": "Se arranhar, é só passar uma pomadinha depois",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 749,
+        "texto": "Garanta que isso não vai arranhar a relação",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 750,
+        "texto": "A Maria é como um animal que pode morder e arranhar",
+        "verbo_alvo": "arranhar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 751,
+        "texto": "mas nem assim ele deixa de esmurrar a mulher.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 752,
+        "texto": "ele invadiu o banheiro chegando a o absurdo de esmurrar a outra jovem.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 753,
+        "texto": "Congresso que o presidente também precisa de vez em quando esmurrar.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 754,
+        "texto": "acusando seu cunhado de 30 anos de bater e esmurrar a própria filha.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 755,
+        "texto": "começou a lhe esmurrar seu rosto e o corpo.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 756,
+        "texto": "Então vale a pena esmurrar jogador dentro de campo.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 757,
+        "texto": "os chimpanzés foram até a varanda e começaram a esmurrar a porta.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 758,
+        "texto": "Prestes a me Esmurrar.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 759,
+        "texto": "quem mais iria esmurrar a areia de a praia .",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 760,
+        "texto": "Eu comecei a esmurrar a viatura e gritar.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 761,
+        "texto": "O pai disse também que chegou a esmurrar o adolescente.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 762,
+        "texto": "Não achou o bastante e começou a esmurrar o carro.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 763,
+        "texto": "chegou a arrancar a placa de o seu carro e esmurrar o vidro.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 764,
+        "texto": "A vítima ouviu ele esmurrar o portão.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 765,
+        "texto": "Acho que esmurrar a massa consegue acalmar-o.",
+        "verbo_alvo": "esmurrar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 766,
+        "texto": "vamos triturar as castanhas em liquidificador.",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 767,
+        "texto": "Detran deve triturar mais de 900 veículos",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 768,
+        "texto": "Bata com um martelo de carne para Triturar",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 769,
+        "texto": "Pode- se triturar a metade e colocar a outra parte inteira",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 770,
+        "texto": "os molares são dentes mais redondos e achatados responsáveis por triturar",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 771,
+        "texto": "Passe tudo para o outro compartimento e feche para triturar os alimentos",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 772,
+        "texto": "O objetivo é triturar o máximo que puder",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 773,
+        "texto": "Bata os biscoitos em um processador até triturar tudo",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 774,
+        "texto": "Não vejo a hora de ir lá triturar a rúcula refrescante com meus molares",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 775,
+        "texto": "família Marinho é useira e vezeira em triturar reputações de políticos",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 776,
+        "texto": "Mas o ideal seria triturar e mandar fazer adubo",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 777,
+        "texto": "Para fazer a farofa basta triturar 1 xícara de nozes",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 778,
+        "texto": "Bata por aproximadamente três minutos ou até triturar todos os ingredientes",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 779,
+        "texto": "Triturar os galhos traz mais valor econômico para a empresa",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 780,
+        "texto": "Bata muito bem até triturar por completo a cenoura.",
+        "verbo_alvo": "triturar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 781,
+        "texto": "Pode furar o olho de alguém ou fazer poesia.",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 782,
+        "texto": "Eu cheguei a furar o rosto de ele todinho de chave.",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 783,
+        "texto": "Ele dizia e queria que queria furar o bloqueio",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 784,
+        "texto": "o Botafogo já dava pinta de não ter forças para furar o bloqueio rival",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 785,
+        "texto": "E depois era só furar dois túneis para poder complementar a obra.",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 786,
+        "texto": "Boias infláveis podem furar e não são confiáveis.",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 787,
+        "texto": "Tu ia me furar com isso aqui.",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 788,
+        "texto": "Ferraz Magarinos, de 42 anos, foi presa após furar uma blitz",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 789,
+        "texto": "Quantas ondas grandes a mãe teve que furar",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 790,
+        "texto": "A equipe alvinegra tinha muitas dificuldades para furar o bloqueio defensivo adversário",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 791,
+        "texto": "mas preferiu furar o sinal em vez de parar",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 792,
+        "texto": "saio daqui e vou a Mara Rosa para furar o dedo",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 793,
+        "texto": "não gosto de me furar",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 794,
+        "texto": "ele começa a furar a parede com uma furadeira",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 795,
+        "texto": "Um caminhão que teria tentado furar o bloqueio por a manhã teve os pneus furados",
+        "verbo_alvo": "furar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 796,
+        "texto": "haverá sentido em trincar os dentes e continuar torcendo por o bem de o país",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 797,
+        "texto": "Tal prática pode também trincar o painel",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 798,
+        "texto": "um mecanismo que permite a o aparelho sofrer danos sem trincar o display",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 799,
+        "texto": "a possibilidade de o objeto trincar é grande.",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 800,
+        "texto": "familiares tentaram invadir a unidade de saúde chegando a trincar o vidro",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 801,
+        "texto": "Temos que fazer de tudo para trincar e fazer a terceira vitória.",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 802,
+        "texto": "eleição de este ano foi fundamental para trincar a relação entre o bloco oposicionista e governista",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 803,
+        "texto": "Se isso continuar, os prédios podem trincar",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 804,
+        "texto": "E foi justamente por causa de o desejo de trincar o abdômen",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 805,
+        "texto": "As pedradas chegaram a trincar os vidros de dois de os três ônibus",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 806,
+        "texto": "a roda chegou a trincar",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 807,
+        "texto": "O chão começa a trincar",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 808,
+        "texto": "O cara sente o maxilar trincar e depois dá a cara pra bater.",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 809,
+        "texto": "Ela pode trincar com o tempo e a umidade",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 810,
+        "texto": "Todos os vidros começaram a trincar",
+        "verbo_alvo": "trincar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 811,
+        "texto": "um rolo compressor de pedras e lama capaz de estraçalhar trens",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 812,
+        "texto": "também usa o Twitter para responder a as agressões e estraçalhar Trump",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 813,
+        "texto": "Mas a campanha pode se estraçalhar a qualquer momento",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 814,
+        "texto": "E ainda assim serviriam para estraçalhar próceres de diversos partidos",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 815,
+        "texto": "Se antes esse dado fez o Rei de o Crime estraçalhar a vida de o herói",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 816,
+        "texto": "uma pequena queda é o suficiente para estraçalhar o aparelho",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 817,
+        "texto": "Eu vou estraçalhar você",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 818,
+        "texto": "Daqui para frente eles devem se dividir e estraçalhar",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 819,
+        "texto": "não precisaríamos estraçalhar crianças",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 820,
+        "texto": "Mesmo que esteja narrando o esquema tático para estraçalhar a Suíça domingo que vem",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 821,
+        "texto": "A pessoa que conseguiu estraçalhar as bandeiras",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 822,
+        "texto": "Há anos prometo subir o morro para estraçalhar uns frescais",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 823,
+        "texto": "Ainda que não tenhamos conseguido estraçalhar aquele teto de vidro",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 824,
+        "texto": "Tem é que estraçalhar esse tal de Uber mesmo",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 825,
+        "texto": "Eu vou te estraçalhar todo",
+        "verbo_alvo": "estraçalhar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 826,
+        "texto": "Outras três podem não moer a cana em a atual safra",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 827,
+        "texto": "uma usina em São Luís de o Quitunde chegou a moer em esta",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 828,
+        "texto": "o parque industrial tem capacidade instalada suficiente para moer toda a matéria-prima",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 829,
+        "texto": "A oficina era utilizada para moer",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 830,
+        "texto": "A empresa americana criou uma máquina capaz de moer em a hora a carne",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 831,
+        "texto": "A técnica consiste em moer os cavacos de madeira",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 832,
+        "texto": "A máquina de moer estava fora de o alcance de os olhos",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 833,
+        "texto": "em o último mês que resta de safra esperamos moer mais 21 mil toneladas de grãos moídos",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 834,
+        "texto": "A máquina elétrica de moer cana não possuía uma proteção",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 835,
+        "texto": "Moer é outra missão trabalhosa",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 836,
+        "texto": "Três usinas deixaram de moer em essa safra",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 837,
+        "texto": "As 21 usinas em funcionamento em Alagoas devem moer 22, 5 milhões de toneladas de cana",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 838,
+        "texto": "quatro ainda não começaram a moer",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 839,
+        "texto": "quero saber que carne que está moendo e quero ver moer",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 840,
+        "texto": "O DIPO é máquina de moer gente",
+        "verbo_alvo": "moer",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 841,
+        "texto": "Mas e o medinho de ralar as canelas e quebrar o nariz",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 842,
+        "texto": "Mas é preciso ralar muito",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 843,
+        "texto": "Sonho com uma máquina de ralar coco",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 844,
+        "texto": "Prepare- se para ralar bastante",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 845,
+        "texto": "Antigamente era ciumento e ninguém poderia ralar a mão em o carro",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 846,
+        "texto": "Raspar o nabo com uma faca e ralar o gengibre com um ralador",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 847,
+        "texto": "Tive que ralar sozinha pra aprender o pouco que eu sei",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 848,
+        "texto": "Dançando break sem se ralar",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 849,
+        "texto": "Ronny teve que ralar",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 850,
+        "texto": "Ele vai ralar a bunda e não vai conseguir se dar bem",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 851,
+        "texto": "Nós fizemos vários furos pontudos em a lata para poder ralar direito",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 852,
+        "texto": "sem o Thales e precisando ralar de verdade",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 853,
+        "texto": "as mulheres descascam mais mandioca para ralar",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 854,
+        "texto": "Mas o cara só fez se ralar",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 855,
+        "texto": "A Larissa famosa teve que ralar bastante",
+        "verbo_alvo": "ralar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 856,
+        "texto": "é de partir o coração ver gente defendendo esse homem",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 857,
+        "texto": "A batida foi violenta e chegou a partir o cinto de segurança de a esposa",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 858,
+        "texto": "número de garotas afetadas por o HIV é de partir o coração",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 859,
+        "texto": "Chega o momento de partir o bolo de noivado",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 860,
+        "texto": "Mas fabricar os combustíveis a partir o petróleo é muito trabalhoso",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 861,
+        "texto": "classificou a crise como de partir o coração",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 862,
+        "texto": "Uma foto de partir o coração mostrou o momento",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 863,
+        "texto": "Antes de partir o garoto ainda respondeu",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 864,
+        "texto": "Para identificar uma planta doente é preciso partir o gengibre",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 865,
+        "texto": "Os docentes cativam os alunos a partir o momento",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 866,
+        "texto": "Impacto de a batida foi violento e chegou a partir o poste e o veículo",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 867,
+        "texto": "é que há de partir o Supremo Tribunal Federal.",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 868,
+        "texto": "Consiste em o lançamento a partir o navio-mãe de uma gigantesca rede",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 869,
+        "texto": "Após seduzir e partir o coração de Angelique Bouchard",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 870,
+        "texto": "E partir o remédio jamais pode ser uma decisão apenas de o paciente",
+        "verbo_alvo": "partir",
+        "posicao_verbo": 1
+    },
+    {
+        "id": 871,
+        "texto": "com a trama potente de um casamento prestes a se despedaçar",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 872,
+        "texto": "mas para um participante seria como o despedaçar de um sonho",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 873,
+        "texto": "o mundo parece se despedaçar diante de nossos olhos",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 874,
+        "texto": "E por despedaçar apegos ou sentimentos",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 875,
+        "texto": "o martírio de sentir uma paixão despedaçar o peito",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 876,
+        "texto": "o artefato deve se despedaçar em várias partes menores",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 877,
+        "texto": "bater a cabeça de a pessoa em a parede até despedaçar o crânio",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 10
+    },
+    {
+        "id": 878,
+        "texto": "um de os vidros de o carro vai se despedaçar",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 879,
+        "texto": "Mas esse fracasso pode despedaçar os sonhos hollywoodianos de Wang Jianlin",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 880,
+        "texto": "A nave deve se despedaçar e o que sobrar deve ser esmagado",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 881,
+        "texto": "Despedaçar o fermento em uma tigela pequena",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 882,
+        "texto": "Estávamos prestes a em os despedaçar",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 5
+    },
+    {
+        "id": 883,
+        "texto": "muitas de elas temeram que isso poderia despedaçar os restos ósseos",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 884,
+        "texto": "Cozinhe um pouco sem mexer muito para não despedaçar a tilápia",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 885,
+        "texto": "Os confinados começaram a despedaçar membros de outros de outros participantes",
+        "verbo_alvo": "despedaçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 886,
+        "texto": "O condutor de o veículo viu o vidro se estilhaçar e por pouco não se feriu",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 9
+    },
+    {
+        "id": 887,
+        "texto": "A habilidade Estilhaçar permite arremessar inimigos para longe",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 2
+    },
+    {
+        "id": 888,
+        "texto": "Imperador Deus de Duna vem para estilhaçar essa cadência",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 889,
+        "texto": "não temos ilusões de que vai ser difícil estilhaçar a hegemonia a a frente",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 890,
+        "texto": "Torno a me estilhaçar em mil pedaços",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 891,
+        "texto": "Era quase inacreditável que ele tivesse conseguido estilhaçar o sistema",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 892,
+        "texto": "A outra hipótese é a sociedade se estilhaçar primeiro",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 7
+    },
+    {
+        "id": 893,
+        "texto": "A gente tem de estilhaçar o poder",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 894,
+        "texto": "As janelas de o ônibus chegaram a se estilhaçar após o choque",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 8
+    },
+    {
+        "id": 895,
+        "texto": "Basta uma ou duas quedas para estilhaçar a tela",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 6
+    },
+    {
+        "id": 896,
+        "texto": "Esse fenômeno poderia estilhaçar completamente planetas terrestres",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 897,
+        "texto": "barulho suficiente para estilhaçar vidraças de a agência",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 3
+    },
+    {
+        "id": 898,
+        "texto": "estilhaçar qualquer possibilidade de ajuste de expectativas",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 0
+    },
+    {
+        "id": 899,
+        "texto": "o vidro não vai estilhaçar",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 4
+    },
+    {
+        "id": 900,
+        "texto": "mas essa cena começa a se estilhaçar",
+        "verbo_alvo": "estilhaçar",
+        "posicao_verbo": 6
+    }
+]

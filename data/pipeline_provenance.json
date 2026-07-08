@@ -1,0 +1,219 @@
+{
+  "prefix": {
+    "ln": "http://example.org/linguistica_psicologica#"
+  },
+  "agent": {
+    "ln:researcher": {
+      "prov:type": "prov:Person",
+      "ln:name": "Josue David Praciano"
+    },
+    "ln:pipeline_script": {
+      "prov:type": "prov:SoftwareAgent"
+    }
+  },
+  "actedOnBehalfOf": {
+    "_:id1": {
+      "prov:delegate": "ln:pipeline_script",
+      "prov:responsible": "ln:researcher"
+    }
+  },
+  "entity": {
+    "ln:corpus_do_portugues_site": {
+      "prov:type": "prov:Collection",
+      "ln:url": "https://www.corpusdoportugues.org/",
+      "ln:description": "Dados brutos extraídos do site Corpus do Português"
+    },
+    "ln:processed_json_corpus": {
+      "prov:type": "ln:CorpusData",
+      "prov:location": "Projeto_Fundamentos_DS\\data\\processed.json",
+      "ln:format": "json"
+    },
+    "ln:transformer_model": {
+      "ln:model_id": "xlm-roberta-base",
+      "ln:layer": "8"
+    },
+    "ln:embeddings_matrix": {
+      "prov:type": "ln:FeatureMatrix",
+      "prov:location": "data/embeddings.joblib"
+    },
+    "ln:label_encoder_file": {
+      "prov:type": "ln:DeploymentArtifact",
+      "prov:location": "outputs\\label_encoder.joblib",
+      "ln:purpose": "Mapeamento de categorias de texto para índices numéricos"
+    },
+    "ln:pca_scatterplot": {
+      "prov:type": "prov:Image",
+      "prov:location": "outputs/visualizacao_pca.png",
+      "ln:dimension_reduction": "PCA",
+      "ln:metric": "Silhouette Score Geral (Cosseno)"
+    },
+    "ln:serialized_svm_model": {
+      "prov:type": "ln:SerializedModel",
+      "prov:location": "outputs\\modelo_svm_linear.joblib",
+      "ln:algorithm": "Support Vector Machine (SVC)"
+    },
+    "ln:serialized_lr_model": {
+      "prov:type": "ln:SerializedModel",
+      "prov:location": "outputs\\modelo_regressao_logistica.joblib",
+      "ln:algorithm": "Logistic Regression"
+    },
+    "ln:svm_results_report": {
+      "prov:type": "ln:EvaluationReport",
+      "prov:location": "outputs\\resultados_Support_Vector_Machine.txt",
+      "ln:classifier_used": "Support Vector Machine (SVC)",
+      "ln:kernel": "linear"
+    },
+    "ln:logistic_regression_report": {
+      "prov:type": "ln:EvaluationReport",
+      "prov:location": "outputs\\resultados_Logistic_Regression.txt",
+      "ln:classifier_used": "Logistic Regression"
+    },
+    "ln:plotly_lr_hyperplanes": {
+      "prov:type": "prov:Image",
+      "ln:visualization_tool": "Plotly Express",
+      "ln:source_coefficients": "Logistic Regression (.coef_ OVR)",
+      "ln:target_groups": "Grupo 1 (Exp-Suj), Grupo 2 (EXP-Obg), Grupo 3"
+    },
+    "ln:plotly_svm_hyperplanes": {
+      "prov:type": "prov:Image",
+      "ln:visualization_tool": "Plotly Express",
+      "ln:source_coefficients": "SVM Linear (Hiperplanos OVO Reconstruídos cumulativamente)",
+      "ln:target_groups": "Grupo 1 (Exp-Suj), Grupo 2 (EXP-Obg), Grupo 3 (Controle)"
+    }
+  },
+  "activity": {
+    "ln:web_scraping_and_json_generation": {},
+    "ln:tokenization_and_extraction": {
+      "prov:startTime": "2026-07-08T10:17:10.566379",
+      "prov:endTime": "2026-07-08T10:17:12.566379"
+    },
+    "ln:model_training_evaluation_and_visualization": {
+      "prov:startTime": "2026-07-08T10:17:12.566379",
+      "prov:endTime": "2026-07-08T10:17:14.566379"
+    },
+    "ln:hyperplane_pca_projection_and_visualization": {
+      "prov:startTime": "2026-07-08T10:17:14.566379",
+      "prov:endTime": "2026-07-08T10:17:10.568378"
+    }
+  },
+  "wasAssociatedWith": {
+    "_:id2": {
+      "prov:activity": "ln:web_scraping_and_json_generation",
+      "prov:agent": "ln:researcher"
+    },
+    "_:id6": {
+      "prov:activity": "ln:tokenization_and_extraction",
+      "prov:agent": "ln:pipeline_script"
+    },
+    "_:id11": {
+      "prov:activity": "ln:model_training_evaluation_and_visualization",
+      "prov:agent": "ln:pipeline_script"
+    },
+    "_:id22": {
+      "prov:activity": "ln:hyperplane_pca_projection_and_visualization",
+      "prov:agent": "ln:pipeline_script"
+    }
+  },
+  "used": {
+    "_:id3": {
+      "prov:activity": "ln:web_scraping_and_json_generation",
+      "prov:entity": "ln:corpus_do_portugues_site"
+    },
+    "_:id7": {
+      "prov:activity": "ln:tokenization_and_extraction",
+      "prov:entity": "ln:processed_json_corpus"
+    },
+    "_:id8": {
+      "prov:activity": "ln:tokenization_and_extraction",
+      "prov:entity": "ln:transformer_model"
+    },
+    "_:id12": {
+      "prov:activity": "ln:model_training_evaluation_and_visualization",
+      "prov:entity": "ln:embeddings_matrix"
+    },
+    "_:id23": {
+      "prov:activity": "ln:hyperplane_pca_projection_and_visualization",
+      "prov:entity": "ln:label_encoder_file"
+    },
+    "_:id24": {
+      "prov:activity": "ln:hyperplane_pca_projection_and_visualization",
+      "prov:entity": "ln:serialized_svm_model"
+    },
+    "_:id25": {
+      "prov:activity": "ln:hyperplane_pca_projection_and_visualization",
+      "prov:entity": "ln:serialized_lr_model"
+    }
+  },
+  "wasGeneratedBy": {
+    "_:id4": {
+      "prov:entity": "ln:processed_json_corpus",
+      "prov:activity": "ln:web_scraping_and_json_generation"
+    },
+    "_:id9": {
+      "prov:entity": "ln:embeddings_matrix",
+      "prov:activity": "ln:tokenization_and_extraction"
+    },
+    "_:id13": {
+      "prov:entity": "ln:label_encoder_file",
+      "prov:activity": "ln:model_training_evaluation_and_visualization"
+    },
+    "_:id14": {
+      "prov:entity": "ln:pca_scatterplot",
+      "prov:activity": "ln:model_training_evaluation_and_visualization"
+    },
+    "_:id16": {
+      "prov:entity": "ln:serialized_svm_model",
+      "prov:activity": "ln:model_training_evaluation_and_visualization"
+    },
+    "_:id17": {
+      "prov:entity": "ln:serialized_lr_model",
+      "prov:activity": "ln:model_training_evaluation_and_visualization"
+    },
+    "_:id18": {
+      "prov:entity": "ln:svm_results_report",
+      "prov:activity": "ln:model_training_evaluation_and_visualization"
+    },
+    "_:id20": {
+      "prov:entity": "ln:logistic_regression_report",
+      "prov:activity": "ln:model_training_evaluation_and_visualization"
+    },
+    "_:id26": {
+      "prov:entity": "ln:plotly_lr_hyperplanes",
+      "prov:activity": "ln:hyperplane_pca_projection_and_visualization"
+    },
+    "_:id28": {
+      "prov:entity": "ln:plotly_svm_hyperplanes",
+      "prov:activity": "ln:hyperplane_pca_projection_and_visualization"
+    }
+  },
+  "wasDerivedFrom": {
+    "_:id5": {
+      "prov:generatedEntity": "ln:processed_json_corpus",
+      "prov:usedEntity": "ln:corpus_do_portugues_site"
+    },
+    "_:id10": {
+      "prov:generatedEntity": "ln:embeddings_matrix",
+      "prov:usedEntity": "ln:processed_json_corpus"
+    },
+    "_:id15": {
+      "prov:generatedEntity": "ln:pca_scatterplot",
+      "prov:usedEntity": "ln:embeddings_matrix"
+    },
+    "_:id19": {
+      "prov:generatedEntity": "ln:svm_results_report",
+      "prov:usedEntity": "ln:embeddings_matrix"
+    },
+    "_:id21": {
+      "prov:generatedEntity": "ln:logistic_regression_report",
+      "prov:usedEntity": "ln:embeddings_matrix"
+    },
+    "_:id27": {
+      "prov:generatedEntity": "ln:plotly_lr_hyperplanes",
+      "prov:usedEntity": "ln:serialized_lr_model"
+    },
+    "_:id29": {
+      "prov:generatedEntity": "ln:plotly_svm_hyperplanes",
+      "prov:usedEntity": "ln:serialized_svm_model"
+    }
+  }
+}
