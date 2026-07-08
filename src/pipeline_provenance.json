@@ -21,7 +21,7 @@
     "ln:corpus_do_portugues_site": {
       "prov:type": "prov:Collection",
       "ln:url": "https://www.corpusdoportugues.org/",
-      "ln:description": "Dados brutos extraídos do site Corpus do Português"
+      "ln:description": "Dados brutos extraídos manualmente do site Corpus do Português"
     },
     "ln:processed_json_corpus": {
       "prov:type": "ln:CorpusData",
@@ -30,16 +30,19 @@
     },
     "ln:transformer_model": {
       "ln:model_id": "xlm-roberta-base",
-      "ln:layer": "8"
+      "ln:layers_aggregated": "mean_last_4_layers",
+      "ln:pooling_technique": "masked_mean_pooling",
+      "ln:masking_applied": "True (attention_mask used to ignore padding tokens)"
     },
     "ln:embeddings_matrix": {
       "prov:type": "ln:FeatureMatrix",
-      "prov:location": "data/embeddings.joblib"
+      "prov:location": "data/embeddings.joblib",
+      "ln:embedding_aggregation": "sentence_level_via_mean_pooling"
     },
     "ln:label_encoder_file": {
       "prov:type": "ln:DeploymentArtifact",
       "prov:location": "outputs\\label_encoder.joblib",
-      "ln:purpose": "Mapeamento de categorias de texto para índices numéricos"
+      "ln:purpose": "Mapeamento de categorias de text para índices numéricos"
     },
     "ln:pca_scatterplot": {
       "prov:type": "prov:Image",
@@ -83,18 +86,9 @@
   },
   "activity": {
     "ln:web_scraping_and_json_generation": {},
-    "ln:tokenization_and_extraction": {
-      "prov:startTime": "2026-07-08T10:17:10.566379",
-      "prov:endTime": "2026-07-08T10:17:12.566379"
-    },
-    "ln:model_training_evaluation_and_visualization": {
-      "prov:startTime": "2026-07-08T10:17:12.566379",
-      "prov:endTime": "2026-07-08T10:17:14.566379"
-    },
-    "ln:hyperplane_pca_projection_and_visualization": {
-      "prov:startTime": "2026-07-08T10:17:14.566379",
-      "prov:endTime": "2026-07-08T10:17:10.568378"
-    }
+    "ln:tokenization_and_extraction": {},
+    "ln:model_training_evaluation_and_visualization": {},
+    "ln:hyperplane_pca_projection_and_visualization": {}
   },
   "wasAssociatedWith": {
     "_:id2": {
@@ -105,11 +99,11 @@
       "prov:activity": "ln:tokenization_and_extraction",
       "prov:agent": "ln:pipeline_script"
     },
-    "_:id11": {
+    "_:id12": {
       "prov:activity": "ln:model_training_evaluation_and_visualization",
       "prov:agent": "ln:pipeline_script"
     },
-    "_:id22": {
+    "_:id23": {
       "prov:activity": "ln:hyperplane_pca_projection_and_visualization",
       "prov:agent": "ln:pipeline_script"
     }
@@ -127,19 +121,19 @@
       "prov:activity": "ln:tokenization_and_extraction",
       "prov:entity": "ln:transformer_model"
     },
-    "_:id12": {
+    "_:id13": {
       "prov:activity": "ln:model_training_evaluation_and_visualization",
       "prov:entity": "ln:embeddings_matrix"
     },
-    "_:id23": {
+    "_:id24": {
       "prov:activity": "ln:hyperplane_pca_projection_and_visualization",
       "prov:entity": "ln:label_encoder_file"
     },
-    "_:id24": {
+    "_:id25": {
       "prov:activity": "ln:hyperplane_pca_projection_and_visualization",
       "prov:entity": "ln:serialized_svm_model"
     },
-    "_:id25": {
+    "_:id26": {
       "prov:activity": "ln:hyperplane_pca_projection_and_visualization",
       "prov:entity": "ln:serialized_lr_model"
     }
@@ -153,35 +147,35 @@
       "prov:entity": "ln:embeddings_matrix",
       "prov:activity": "ln:tokenization_and_extraction"
     },
-    "_:id13": {
+    "_:id14": {
       "prov:entity": "ln:label_encoder_file",
       "prov:activity": "ln:model_training_evaluation_and_visualization"
     },
-    "_:id14": {
+    "_:id15": {
       "prov:entity": "ln:pca_scatterplot",
       "prov:activity": "ln:model_training_evaluation_and_visualization"
     },
-    "_:id16": {
+    "_:id17": {
       "prov:entity": "ln:serialized_svm_model",
       "prov:activity": "ln:model_training_evaluation_and_visualization"
     },
-    "_:id17": {
+    "_:id18": {
       "prov:entity": "ln:serialized_lr_model",
       "prov:activity": "ln:model_training_evaluation_and_visualization"
     },
-    "_:id18": {
+    "_:id19": {
       "prov:entity": "ln:svm_results_report",
       "prov:activity": "ln:model_training_evaluation_and_visualization"
     },
-    "_:id20": {
+    "_:id21": {
       "prov:entity": "ln:logistic_regression_report",
       "prov:activity": "ln:model_training_evaluation_and_visualization"
     },
-    "_:id26": {
+    "_:id27": {
       "prov:entity": "ln:plotly_lr_hyperplanes",
       "prov:activity": "ln:hyperplane_pca_projection_and_visualization"
     },
-    "_:id28": {
+    "_:id30": {
       "prov:entity": "ln:plotly_svm_hyperplanes",
       "prov:activity": "ln:hyperplane_pca_projection_and_visualization"
     }
@@ -195,25 +189,37 @@
       "prov:generatedEntity": "ln:embeddings_matrix",
       "prov:usedEntity": "ln:processed_json_corpus"
     },
-    "_:id15": {
+    "_:id11": {
+      "prov:generatedEntity": "ln:embeddings_matrix",
+      "prov:usedEntity": "ln:transformer_model"
+    },
+    "_:id16": {
       "prov:generatedEntity": "ln:pca_scatterplot",
       "prov:usedEntity": "ln:embeddings_matrix"
     },
-    "_:id19": {
+    "_:id20": {
       "prov:generatedEntity": "ln:svm_results_report",
       "prov:usedEntity": "ln:embeddings_matrix"
     },
-    "_:id21": {
+    "_:id22": {
       "prov:generatedEntity": "ln:logistic_regression_report",
       "prov:usedEntity": "ln:embeddings_matrix"
     },
-    "_:id27": {
+    "_:id28": {
       "prov:generatedEntity": "ln:plotly_lr_hyperplanes",
       "prov:usedEntity": "ln:serialized_lr_model"
     },
     "_:id29": {
+      "prov:generatedEntity": "ln:plotly_lr_hyperplanes",
+      "prov:usedEntity": "ln:embeddings_matrix"
+    },
+    "_:id31": {
       "prov:generatedEntity": "ln:plotly_svm_hyperplanes",
       "prov:usedEntity": "ln:serialized_svm_model"
+    },
+    "_:id32": {
+      "prov:generatedEntity": "ln:plotly_svm_hyperplanes",
+      "prov:usedEntity": "ln:embeddings_matrix"
     }
   }
 }
