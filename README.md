@@ -23,6 +23,7 @@ O pipeline de execução é dividido em três fases principais:
 ```text
   [ Extração Manual ] ──> [ XLM-RoBERTa + Pooling ] ──> [ Classificação & Plots ]
   (processed.json)         (Média Camadas 9-12)          (SVM, Regressão Logística)
+```
 
 ### 1. Preparação do Corpus
 * **Origem e Extração:** Extração manual realizada a partir do *Corpus do Português*, gerando o arquivo processado original `processed.json`.
