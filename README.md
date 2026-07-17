@@ -9,7 +9,7 @@
 |serra@pet-si.ufrrj.br|zavaleta@pet-si.ufrrj.br|
 
 
-# Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa
+# Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base
 
 Este esstudo contém o pipeline completo feito para investigar a separabilidade linear de verbos psicológicos do Português utilizando embeddings do modelo Transformer **XLM-RoBERTa-base** e classificadores lineares.
 
