@@ -45,6 +45,6 @@ Este projeto utilizou o modelo **Gemini 1.5 Pro** (Google) de forma complementar
 * **Documentação do Código:** Geração de comentários explicativos nas funções para facilitar a leitura e manutenção do código.
 * **Depuração e Rastreabilidade:** Otimização de marcações e instruções de *print* ao longo do código para mapeamento rápido de falhas e rastreabilidade de erros.
 
-> ⚠️ **Nota:** Toda a concepção conceitual da pesquisa, a fundamentação teórica de linguística computacional (verbos psicológicos) e a análise crítica dos resultados do modelo XLM-RoBERTa foram de autoria inteiramente humana.
+> **Nota:** Toda a concepção conceitual da pesquisa, a fundamentação teórica de linguística computacional e a análise crítica dos resultados do modelo XLM-RoBERTa-base foram de autoria inteiramente humana.
 
   
