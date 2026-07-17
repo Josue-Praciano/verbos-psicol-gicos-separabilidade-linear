@@ -26,9 +26,9 @@ O objetivo do projeto é avaliar se representações vetoriais de modelos de lin
 -----
 ## Imagens disponibilizadas
 * Grafo de proveniência do projeto
-![pipeline_provenance]
+![image](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/images/pipeline_provenance.png)
 * Gráfico 2d dos embeddinggs via t-SNE
-![visualizacao_embeddings_tsne_controle]
+![image](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/images/visualizacao_embeddings_tsne_controle.png)
 
 -----
 ## Autoria:
