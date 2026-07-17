@@ -13,9 +13,9 @@
 
 Este estudo contém o pipeline completo feito para investigar a separabilidade linear de verbos psicológicos do Português utilizando embeddings do modelo Transformer **XLM-RoBERTa-base** e classificadores lineares.
 
-O objetivo do projeto é avaliar se representações vetoriais de modelos de linguagem capturam nuances sintático-semânticas profundas (como papéis temáticos) a ponto de distinguir classes de verbos psicológicos sem o auxílio de metadados.
+O objetivo do projeto é avaliar se representações vetoriais de modelos de linguagem capturam nuances sintático-semânticas profundas (como papéis temáticos) a ponto de distinguir classes de verbos psicológicos sem o auxílio de anotação sintática prévia.
 
-Autor:*Josué David Praciano* [Programa de Pós-Graduação em Informática/UFRJ]
+Autor: *Josué David Praciano* [Programa de Pós-Graduação em Informática/UFRJ]
 
 ## Metodologia do Projeto
 Inicialmente, foi construído um dataset manualmente com base nas classes de verbos psicológicos propostas por Cançado (1997). Para a estruturação do corpus, os dados foram divididos em cinco categorias:
