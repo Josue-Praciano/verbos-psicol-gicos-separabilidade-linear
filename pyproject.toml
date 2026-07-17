@@ -1,7 +1,7 @@
 [project]
 name = "projeto-fundamentos-ds"
 version = "0.1.0"
-description = "Add your description here"
+description = "Análise de separabilidade linear de verbos psicológicos usando o modelo XLM-RoBerta-base"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
