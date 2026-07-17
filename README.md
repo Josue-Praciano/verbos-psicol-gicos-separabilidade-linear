@@ -67,7 +67,7 @@ Para inspecionar o comportamento geométrico e o agrupamento das classes teóric
 -----
 Artigo: Em andamento
 
-## Referências ()
+## Referências:
 
 * CANÇADO, Márcia. Verbos Psicológicos: Análise Descritiva dos Dados do Português Brasileiro. Revista de Estudos da Linguagem, v. 4, n. 1, p. 89-114, 1996.
 
