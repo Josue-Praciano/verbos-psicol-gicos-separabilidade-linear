@@ -18,13 +18,13 @@ O objetivo do projeto é avaliar se representações vetoriais de modelos de lin
 Autor: *Josué David Praciano* [Programa de Pós-Graduação em Informática/UFRJ]
 
 ## Metodologia do Projeto
-Inicialmente, foi construído um dataset manualmente com base nas classes de verbos psicológicos propostas por Cançado (1997). Para a estruturação do corpus, os dados foram divididos em cinco categorias:
+Inicialmente, foi construído um dataset manualmente com base nas classes de verbos psicológicos propostas por [Cançado (1995)][https://repositorio.unicamp.br/acervo/detalhe/88094]. Para a estruturação do corpus, os dados foram divididos em cinco categorias:
 
-Classe 1: verbos do tipo temer
-Classe 2: verbos do tipo preocupar
-Classe 3: verbos do tipo acalmar
-Classe 4: verbos do tipo animar
-Classe Controle: Verbos de transferência
+*Classe 1: verbos do tipo temer
+*Classe 2: verbos do tipo preocupar
+*Classe 3: verbos do tipo acalmar
+*Classe 4: verbos do tipo animar
+*Classe Controle: Verbos de transferência
 
 Foram selecionados 10 verbos por classe e extraídas 50 frases para cada um deles, totalizando 2.500 sentenças. Todos os dados foram coletados a partir do [Corpus do Português](https://www.corpusdoportugues.org/).
 
@@ -76,3 +76,6 @@ Este projeto utilizou o modelo **Gemini 1.5 Pro** (Google) de forma complementar
 > **Nota:** Toda a concepção conceitual da pesquisa, a fundamentação teórica de linguística computacional e a análise crítica dos resultados do modelo XLM-RoBERTa-base foram de autoria inteiramente humana.
 
   
+
+
+[def]: https://repositorio.unicamp.br/acervo/detalhe/88094
