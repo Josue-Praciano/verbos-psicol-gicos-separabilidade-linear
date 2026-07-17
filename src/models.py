@@ -148,7 +148,7 @@ def main():
     pasta_outputs.mkdir(parents=True, exist_ok=True)
     
     json_path = raiz_projeto / 'data' / 'corpus_processado.json'
-    features_path = pasta_outputs / 'features_xlmr_verbo_especifico.npy'
+    features_path = pasta_outputs / 'features_xlmr_mean_pooling.npy'
     
     # Agora carrega X, y, os verbos individuais e o codificador de classes
     X, y, verbos, label_encoder = carregar_dados_e_labels(json_path, features_path)

@@ -1,76 +1,76 @@
 Resultados do SVM Linear
 Resultados da Validação Cruzada (5 Folds):
-Acurácias por fold: 84.50%, 84.00%, 87.50%, 85.00%, 82.75%
-Média do CV: 84.75% (+/- 1.57%)
+Acurácias por fold: 84.00%, 84.75%, 84.50%, 83.00%, 83.50%
+Média do CV: 83.95% (+/- 0.64%)
 
-Acurácia no Teste Final: 87.6000%
+Acurácia no Teste Final: 85.6000%
 
                  precision    recall  f1-score   support
 
-       Classe 1       0.87      0.91      0.89       100
-       Classe 2       0.79      0.83      0.81       100
-       Classe 3       0.94      0.80      0.86       100
-       Classe 4       0.86      0.90      0.88       100
-Classe controle       0.94      0.94      0.94       100
+       Classe 1       0.89      0.88      0.88       100
+       Classe 2       0.75      0.72      0.73       100
+       Classe 3       0.81      0.89      0.85       100
+       Classe 4       0.87      0.84      0.85       100
+Classe controle       0.97      0.95      0.96       100
 
-       accuracy                           0.88       500
-      macro avg       0.88      0.88      0.88       500
-   weighted avg       0.88      0.88      0.88       500
+       accuracy                           0.86       500
+      macro avg       0.86      0.86      0.86       500
+   weighted avg       0.86      0.86      0.86       500
 
 =================================================================
-DESEMPENHO DETALHADO POR VERBO NO CONJUNTO DE TESTE:
+Desempenho por verbo no conjunto de teste:
 
 -----------------------------------------------------------------
 VERBO              | CLASSE REAL  | ACERTOS / TOTAL | ACURÁCIA  
 -----------------------------------------------------------------
-abalar             | Classe 2     |      5/5        |   100.0%
-aborrecer          | Classe 2     |     10/11       |    90.9%
-acalmar            | Classe 3     |      9/11       |    81.8%
-acovardar          | Classe 4     |      8/8        |   100.0%
-admirar            | Classe 1     |      8/8        |   100.0%
-adorar             | Classe 1     |     11/11       |   100.0%
-afligir            | Classe 2     |      7/9        |    77.8%
-agradar            | Classe 4     |      9/9        |   100.0%
-alarmar            | Classe 4     |      4/7        |    57.1%
-alegrar            | Classe 4     |     11/11       |   100.0%
-almejar            | Classe 1     |      7/8        |    87.5%
-amar               | Classe 1     |      7/7        |   100.0%
-animar             | Classe 4     |      6/8        |    75.0%
-apaixonar          | Classe 2     |      9/9        |   100.0%
-apavorar           | Classe 4     |     12/12       |   100.0%
-apaziguar          | Classe 3     |      9/11       |    81.8%
-apreciar           | Classe 1     |     11/13       |    84.6%
-assombrar          | Classe 4     |     11/12       |    91.7%
-assustar           | Classe 4     |     10/13       |    76.9%
-aterrorizar        | Classe 4     |     11/12       |    91.7%
-atormentar         | Classe 4     |      8/8        |   100.0%
-atribuir           | Classe controle |      5/5        |   100.0%
-chatear            | Classe 2     |     11/14       |    78.6%
-comover            | Classe 2     |      5/7        |    71.4%
-constranger        | Classe 2     |      8/9        |    88.9%
-convencer          | Classe 3     |     11/12       |    91.7%
-dar                | Classe controle |      8/8        |   100.0%
-decepcionar        | Classe 2     |     10/11       |    90.9%
-derrotar           | Classe 3     |      1/5        |    20.0%
-desejar            | Classe 1     |      7/11       |    63.6%
-detestar           | Classe 1     |      7/8        |    87.5%
-devolver           | Classe controle |      9/9        |   100.0%
-distribuir         | Classe controle |     14/15       |    93.3%
-emprestar          | Classe controle |     10/11       |    90.9%
-encantar           | Classe 2     |      7/13       |    53.8%
-enganar            | Classe 3     |      6/6        |   100.0%
-entregar           | Classe controle |     13/14       |    92.9%
-escandalizar       | Classe 2     |     11/12       |    91.7%
-estranhar          | Classe 1     |     11/12       |    91.7%
-fornecer           | Classe controle |     11/12       |    91.7%
-humilhar           | Classe 3     |      4/6        |    66.7%
-invejar            | Classe 1     |     14/14       |   100.0%
-ludibriar          | Classe 3     |     12/13       |    92.3%
-odiar              | Classe 1     |      8/8        |   100.0%
-oferecer           | Classe controle |      8/9        |    88.9%
-pacificar          | Classe 3     |      9/13       |    69.2%
-pagar              | Classe controle |      8/8        |   100.0%
-ridicularizar      | Classe 3     |      8/10       |    80.0%
-tranquilizar       | Classe 3     |     11/13       |    84.6%
-transferir         | Classe controle |      8/9        |    88.9%
+abalar             | Classe 2     |      3/4        |    75.0%
+aborrecer          | Classe 2     |     10/12       |    83.3%
+acalmar            | Classe 3     |      8/9        |    88.9%
+acovardar          | Classe 4     |      7/7        |   100.0%
+admirar            | Classe 1     |      7/7        |   100.0%
+adorar             | Classe 1     |      8/9        |    88.9%
+afligir            | Classe 2     |      7/10       |    70.0%
+agradar            | Classe 4     |     10/13       |    76.9%
+alarmar            | Classe 4     |      6/8        |    75.0%
+alegrar            | Classe 4     |     13/15       |    86.7%
+almejar            | Classe 1     |     15/15       |   100.0%
+amar               | Classe 1     |      9/10       |    90.0%
+animar             | Classe 4     |      9/12       |    75.0%
+apaixonar          | Classe 2     |     10/10       |   100.0%
+apavorar           | Classe 4     |      8/8        |   100.0%
+apaziguar          | Classe 3     |      5/6        |    83.3%
+apreciar           | Classe 1     |     12/13       |    92.3%
+assombrar          | Classe 4     |      8/9        |    88.9%
+assustar           | Classe 4     |      8/11       |    72.7%
+aterrorizar        | Classe 4     |      8/8        |   100.0%
+atormentar         | Classe 4     |      7/9        |    77.8%
+atribuir           | Classe controle |     10/10       |   100.0%
+chatear            | Classe 2     |      6/10       |    60.0%
+comover            | Classe 2     |     11/12       |    91.7%
+constranger        | Classe 2     |      8/17       |    47.1%
+convencer          | Classe 3     |      9/12       |    75.0%
+dar                | Classe controle |      7/7        |   100.0%
+decepcionar        | Classe 2     |      7/9        |    77.8%
+derrotar           | Classe 3     |     11/12       |    91.7%
+desejar            | Classe 1     |      9/11       |    81.8%
+detestar           | Classe 1     |      6/10       |    60.0%
+devolver           | Classe controle |      8/9        |    88.9%
+distribuir         | Classe controle |      9/10       |    90.0%
+emprestar          | Classe controle |      9/9        |   100.0%
+encantar           | Classe 2     |      3/6        |    50.0%
+enganar            | Classe 3     |     10/10       |   100.0%
+entregar           | Classe controle |      9/9        |   100.0%
+escandalizar       | Classe 2     |      7/10       |    70.0%
+estranhar          | Classe 1     |      6/6        |   100.0%
+fornecer           | Classe controle |     17/17       |   100.0%
+humilhar           | Classe 3     |      9/11       |    81.8%
+invejar            | Classe 1     |     11/12       |    91.7%
+ludibriar          | Classe 3     |      7/7        |   100.0%
+odiar              | Classe 1     |      5/7        |    71.4%
+oferecer           | Classe controle |     11/13       |    84.6%
+pacificar          | Classe 3     |      9/10       |    90.0%
+pagar              | Classe controle |      9/9        |   100.0%
+ridicularizar      | Classe 3     |     12/13       |    92.3%
+tranquilizar       | Classe 3     |      9/10       |    90.0%
+transferir         | Classe controle |      6/7        |    85.7%
 -----------------------------------------------------------------

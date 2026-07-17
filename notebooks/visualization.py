@@ -3,13 +3,10 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from sklearn.manifold import TSNE
-
-# Importações para o design acadêmico
 import matplotlib.pyplot as plt
 import seaborn as sns
 from adjustText import adjust_text
 
-# --- Configurações Tipográficas e Acadêmicas do Matplotlib ---
 plt.rcParams.update({
     "font.family": "serif",
     "font.serif": ["Times New Roman", "DejaVu Serif", "Liberation Serif"],
@@ -46,7 +43,7 @@ MAPEAMENTO_CLASSES = {
     "pagar": "Classe controle", "transferir": "Classe controle"
 }
 
-# Paleta de cores (convertida e organizada para consistência no Seaborn)
+# Paleta de cores
 PALETA_CORES = {
     "Classe 1": "#1f77b4",        # Azul
     "Classe 2": "#ff7f0e",        # Laranja
@@ -104,13 +101,12 @@ def main():
         'Classe': classes_verbos
     })
     
-    # 4. Configurar e Criar o Gráfico Estático (Padrão Publicação)
+    # 4. Configurar e Criar o Gráfico Estático 
     print("Gerando visualização de qualidade científica com Matplotlib e Seaborn...")
     
-    # Proporção ideal para páginas de artigos (geralmente largura entre 6 e 8 polegadas)
     fig, ax = plt.subplots(figsize=(8, 6.5), dpi=300)
     
-    # Fundo branco e sem linhas de grade chamativas (estilo limpo)
+    # Fundo branco e sem linhas de grade chamativas 
     ax.set_facecolor('white')
     
     # Plot dos pontos com Seaborn
@@ -135,7 +131,6 @@ def main():
     # Tufte-style: Remove bordas de cima e da direita (despine)
     sns.despine(ax=ax, top=True, right=True)
     
-    # Ajuste fino da legenda acadêmica (fora da área dos dados para não sobrepor nada)
     ax.legend(
         title="Classes de Verbos",
         bbox_to_anchor=(1.02, 1),
@@ -158,7 +153,6 @@ def main():
         )
         texts.append(t)
     
-    # Executa a repulsão física dos textos automaticamente
     adjust_text(
         texts,
         x=df['x'].values,
@@ -171,7 +165,7 @@ def main():
     # Ajuste de margens do layout
     plt.tight_layout()
     
-    # 6. Exportação de Formatos Vetoriais (Sem perda de resolução)
+    # 6. Exportação de Formatos Vetoriais
     caminho_pdf = pasta_outputs / 'visualizacao_embeddings_tsne_controle.pdf'
     caminho_svg = pasta_outputs / 'visualizacao_embeddings_tsne_controle.svg'
     caminho_png = pasta_outputs / 'visualizacao_embeddings_tsne_controle.png' # Caso precise de uma prévia rápida

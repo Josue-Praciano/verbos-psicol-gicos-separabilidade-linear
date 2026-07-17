@@ -15,6 +15,8 @@ Este estudo contém o pipeline completo feito para investigar a separabilidade l
 
 O objetivo do projeto é avaliar se representações vetoriais de modelos de linguagem capturam nuances sintático-semânticas profundas (como papéis temáticos) a ponto de distinguir classes de verbos psicológicos sem o auxílio de metadados.
 
+**Josué David Praciano* [Programa de Pós-Graduação em Informática/UFRJ]
+
 ## Metodologia do Projeto
 Inicialmente, foi construído um dataset manualmente com base nas classes de verbos psicológicos propostas por Cançado (1997). Para a estruturação do corpus, os dados foram divididos em cinco categorias:
 
@@ -31,19 +33,17 @@ O restante do projeto foi estruturado em três etapas principais: extração de 
 ### 1. Extração de Embeddings
 Para a extração das características textuais, utilizou-se o modelo de linguagem pré-treinado **XLM-RoBERTa (base)**. 
 * **Estratégia:** Os embeddings de cada sentença foram gerados através da técnica de ***Mean Pooling* global**, calculando a média aritmética de todos os tokens válidos (desconsiderando os tokens de *padding*) ao longo das **últimas 4 camadas do Transformer**.
-* script disponível em src/extracted_features.py
+* script disponível em [extracted_features.py](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/src/extracted_features.py)
 
 ### 2. Classificação Supervisionada
 Com as features consolidadas, o problema foi tratado como uma tarefa de classificação em 5 classes utilizando os algoritmos **SVM (Support Vector Machine) com Kernel Linear** e **Regressão Logística**.
 * **Validação:** Os dados foram divididos na proporção 80/20 (treino/teste) usando amostragem estratificada. O processo de treinamento contou com uma **Validação Cruzada de 5 folds (*Stratified K-Fold*)** no conjunto de treino para garantir a estabilidade das métricas de acurácia. Adicionalmente, calculou-se o *Silhouette Score* (métrica de cosseno) para avaliar o nível de separabilidade prévia do espaço de features.
-* script disponível em src/models.py
+* script disponível em [models.py](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/src/models.py)
 
 ### 3. Visualização
 Para inspecionar o comportamento geométrico e o agrupamento das classes teóricas, foi desenvolvida uma análise visual bidimensional.
 * **Redução de Dimensionalidade:** Primeiro, calculou-se o vetor médio de embedding para cada um dos verbos únicos (comprimindo suas respectivas 50 frases). Em seguida, aplicou-se o algoritmo **t-SNE (*t-Distributed Stochastic Neighbor Embedding*)** com inicialização em PCA para projetar esses vetores em 2 dimensões. O resultado foi exportado em gráficos de dispersão vetoriais (PDF/SVG/PNG) com ajuste automático de rótulos para evitar sobreposição de texto.
-* script disponível em notebooks/visualization.py
-
-**Josué David Praciano* [Programa de Pós-Graduação em Informática/UFRJ]
+* script disponível em [visualization.py](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/notebooks/visualization.py)
 
 -----
 ## Arquivos disponibilizados
