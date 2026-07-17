@@ -11,7 +11,7 @@ def inicializar_modelos(model_name='xlm-roberta-base'):
     model = model.to(device)
     model.eval()
     
-    return None, tokenizer, model, device
+    return tokenizer, model, device
 
 def limpar_e_filtrar_texto(texto):
     """Aplica regras de limpeza mantendo a estrutura de espaços intacta."""

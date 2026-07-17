@@ -1,73 +1,76 @@
 Resultados do SVM Linear
 Resultados da Validação Cruzada (5 Folds):
-Acurácias por fold: 56.94%, 64.58%, 65.97%, 50.69%, 57.64%
-Média do CV: 59.17% (+/- 5.56%)
+Acurácias por fold: 84.50%, 84.00%, 87.50%, 85.00%, 82.75%
+Média do CV: 84.75% (+/- 1.57%)
 
-Acurácia no Teste Final: 72.2222%
+Acurácia no Teste Final: 87.6000%
 
-               precision    recall  f1-score   support
+                 precision    recall  f1-score   support
 
-       abalar       0.50      0.67      0.57         3
-     abominar       1.00      1.00      1.00         3
-    aborrecer       0.67      0.67      0.67         3
-      acanhar       0.50      0.33      0.40         3
-      admirar       0.50      0.33      0.40         3
-       adorar       0.33      0.33      0.33         3
-       afetar       0.43      1.00      0.60         3
-      afligir       1.00      0.67      0.80         3
-       agitar       0.40      0.67      0.50         3
-     aguentar       1.00      0.33      0.50         3
-      almejar       0.75      1.00      0.86         3
-     alucinar       1.00      0.67      0.80         3
-         amar       0.33      0.33      0.33         3
-      amassar       1.00      0.67      0.80         3
-    apaixonar       1.00      1.00      1.00         3
-     apreciar       1.00      0.67      0.80         3
-     arranhar       0.33      0.67      0.44         3
-        bater       1.00      0.33      0.50         3
-      chatear       1.00      0.67      0.80         3
-       chutar       0.60      1.00      0.75         3
-      cobiçar       0.00      0.00      0.00         3
-      comover       1.00      1.00      1.00         3
-   contemplar       0.67      0.67      0.67         3
-       cortar       0.33      0.33      0.33         3
-       curtir       0.50      0.33      0.40         3
-  decepcionar       1.00      0.67      0.80         3
-    depreciar       0.67      0.67      0.67         3
-     deprimir       1.00      1.00      1.00         3
-     derrubar       1.00      0.67      0.80         3
-    desanimar       0.60      1.00      0.75         3
-      desejar       0.75      1.00      0.86         3
-    desgostar       1.00      1.00      1.00         3
-desinteressar       1.00      1.00      1.00         3
-   despedaçar       1.00      1.00      1.00         3
-    desprezar       1.00      1.00      1.00         3
-     detestar       0.60      1.00      0.75         3
-    emocionar       1.00      0.67      0.80         3
-     encantar       0.00      0.00      0.00         3
-    enfurecer       0.75      1.00      0.86         3
- escandalizar       1.00      0.67      0.80         3
-      esmagar       0.75      1.00      0.86         3
-     esmurrar       0.50      0.67      0.57         3
-   estilhaçar       1.00      0.67      0.80         3
-      estimar       1.00      1.00      1.00         3
-    estranhar       1.00      1.00      1.00         3
-  estraçalhar       1.00      1.00      1.00         3
-        furar       0.67      0.67      0.67         3
-   horrorizar       1.00      1.00      1.00         3
-    idolatrar       1.00      1.00      1.00         3
-      invejar       0.67      0.67      0.67         3
-       louvar       0.75      1.00      0.86         3
-         moer       0.50      0.67      0.57         3
-        odiar       1.00      1.00      1.00         3
-       partir       1.00      0.67      0.80         3
-     perfurar       0.67      0.67      0.67         3
-      quebrar       0.67      0.67      0.67         3
-        ralar       1.00      0.67      0.80         3
-       rasgar       1.00      0.33      0.50         3
-      trincar       0.67      0.67      0.67         3
-     triturar       0.67      0.67      0.67         3
+       Classe 1       0.87      0.91      0.89       100
+       Classe 2       0.79      0.83      0.81       100
+       Classe 3       0.94      0.80      0.86       100
+       Classe 4       0.86      0.90      0.88       100
+Classe controle       0.94      0.94      0.94       100
 
-     accuracy                           0.72       180
-    macro avg       0.76      0.72      0.72       180
- weighted avg       0.76      0.72      0.72       180
+       accuracy                           0.88       500
+      macro avg       0.88      0.88      0.88       500
+   weighted avg       0.88      0.88      0.88       500
+
+=================================================================
+DESEMPENHO DETALHADO POR VERBO NO CONJUNTO DE TESTE:
+
+-----------------------------------------------------------------
+VERBO              | CLASSE REAL  | ACERTOS / TOTAL | ACURÁCIA  
+-----------------------------------------------------------------
+abalar             | Classe 2     |      5/5        |   100.0%
+aborrecer          | Classe 2     |     10/11       |    90.9%
+acalmar            | Classe 3     |      9/11       |    81.8%
+acovardar          | Classe 4     |      8/8        |   100.0%
+admirar            | Classe 1     |      8/8        |   100.0%
+adorar             | Classe 1     |     11/11       |   100.0%
+afligir            | Classe 2     |      7/9        |    77.8%
+agradar            | Classe 4     |      9/9        |   100.0%
+alarmar            | Classe 4     |      4/7        |    57.1%
+alegrar            | Classe 4     |     11/11       |   100.0%
+almejar            | Classe 1     |      7/8        |    87.5%
+amar               | Classe 1     |      7/7        |   100.0%
+animar             | Classe 4     |      6/8        |    75.0%
+apaixonar          | Classe 2     |      9/9        |   100.0%
+apavorar           | Classe 4     |     12/12       |   100.0%
+apaziguar          | Classe 3     |      9/11       |    81.8%
+apreciar           | Classe 1     |     11/13       |    84.6%
+assombrar          | Classe 4     |     11/12       |    91.7%
+assustar           | Classe 4     |     10/13       |    76.9%
+aterrorizar        | Classe 4     |     11/12       |    91.7%
+atormentar         | Classe 4     |      8/8        |   100.0%
+atribuir           | Classe controle |      5/5        |   100.0%
+chatear            | Classe 2     |     11/14       |    78.6%
+comover            | Classe 2     |      5/7        |    71.4%
+constranger        | Classe 2     |      8/9        |    88.9%
+convencer          | Classe 3     |     11/12       |    91.7%
+dar                | Classe controle |      8/8        |   100.0%
+decepcionar        | Classe 2     |     10/11       |    90.9%
+derrotar           | Classe 3     |      1/5        |    20.0%
+desejar            | Classe 1     |      7/11       |    63.6%
+detestar           | Classe 1     |      7/8        |    87.5%
+devolver           | Classe controle |      9/9        |   100.0%
+distribuir         | Classe controle |     14/15       |    93.3%
+emprestar          | Classe controle |     10/11       |    90.9%
+encantar           | Classe 2     |      7/13       |    53.8%
+enganar            | Classe 3     |      6/6        |   100.0%
+entregar           | Classe controle |     13/14       |    92.9%
+escandalizar       | Classe 2     |     11/12       |    91.7%
+estranhar          | Classe 1     |     11/12       |    91.7%
+fornecer           | Classe controle |     11/12       |    91.7%
+humilhar           | Classe 3     |      4/6        |    66.7%
+invejar            | Classe 1     |     14/14       |   100.0%
+ludibriar          | Classe 3     |     12/13       |    92.3%
+odiar              | Classe 1     |      8/8        |   100.0%
+oferecer           | Classe controle |      8/9        |    88.9%
+pacificar          | Classe 3     |      9/13       |    69.2%
+pagar              | Classe controle |      8/8        |   100.0%
+ridicularizar      | Classe 3     |      8/10       |    80.0%
+tranquilizar       | Classe 3     |     11/13       |    84.6%
+transferir         | Classe controle |      8/9        |    88.9%
+-----------------------------------------------------------------

@@ -1,152 +1,192 @@
-import joblib
+import json
+from pathlib import Path
 import numpy as np
 import pandas as pd
-from pathlib import Path
-from sklearn.decomposition import PCA
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+from sklearn.manifold import TSNE
 
+# Importações para o design acadêmico
+import matplotlib.pyplot as plt
+import seaborn as sns
+from adjustText import adjust_text
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "outputs"
+# --- Configurações Tipográficas e Acadêmicas do Matplotlib ---
+plt.rcParams.update({
+    "font.family": "serif",
+    "font.serif": ["Times New Roman", "DejaVu Serif", "Liberation Serif"],
+    "font.size": 10,            
+    "axes.labelsize": 11,
+    "xtick.labelsize": 9,
+    "ytick.labelsize": 9,
+    "figure.titlesize": 12,
+    "pdf.fonttype": 42,          
+    "ps.fonttype": 42
+})
 
-try:
-    le = joblib.load(DATA_DIR / 'label_encoder.joblib')
-    modelo_lr = joblib.load(DATA_DIR / 'modelo_regressao_logistica.joblib')
-    modelo_svm = joblib.load(DATA_DIR / 'modelo_svm_linear.joblib')
-    classes_model = list(le.classes_)
-    print("✨ Todos os arquivos foram carregados com sucesso localmente!\n")
-except FileNotFoundError as e:
-    print(f"❌ Erro: Não foi possível encontrar o arquivo.")
-    print(f"Certifique-se de que a pasta 'output' existe em: {BASE_DIR}")
-    print(f"E que o arquivo '{e.filename}' está dentro dela.")
-    exit()
-
-
-# 1. Definição dos Grupos verbais
-
-grupo1 = ['abominar', 'admirar', 'adorar', 'amar', 'cobiçar', 'desejar', 'detestar', 'estranhar', 'invejar', 'odiar', 'aguentar', 'almejar', 'apreciar', 'contemplar', 'curtir', 'depreciar', 'desprezar', 'estimar', 'idolatrar', 'louvar']
-grupo2 = ['aborrecer', 'afligir', 'abalar', 'chatear', 'comover', 'decepcionar', 'deprimir', 'encantar', 'escandalizar', 'horrorizar', 'acanhar', 'afetar', 'agitar', 'desinteressar', 'alucinar', 'desgostar', 'apaixonar', 'deslumbrar', 'desanimar', 'emocionar', 'enfurecer']
-grupo3 = ['quebrar', 'chutar', 'cortar', 'esmagar', 'rasgar', 'perfurar', 'bater', 'amassar', 'derrubar', 'arranhar', 'esmurrar', 'triturar', 'furar', 'trincar', 'estraçalhar', 'moer', 'ralar', 'partir', 'despedaçar', 'estilhaçar']
-
-def identificar_grupo(verbo):
-    v = verbo.lower().strip()
-    if v in grupo1: return 'Grupo 1 (Exp-Suj)'
-    if v in grupo2: return 'Grupo 2 (EXP-Obg)'
-    if v in grupo3: return 'Grupo 3 (Controle)'
-    return 'Outros'
-
-# Base de dados base
-df_classes = pd.DataFrame({'Verbo': classes_model})
-df_classes['Grupo'] = df_classes['Verbo'].apply(identificar_grupo)
-valid_idx = df_classes['Grupo'] != 'Outros'
-
-# DataFrames para os plots
-df_lr = df_classes[valid_idx].copy()
-df_svm = df_classes[valid_idx].copy()
-
-# Paleta de cores
-paleta_cores = {
-    'Grupo 1 (Exp-Suj)': '#2ecc71',
-    'Grupo 2 (EXP-Obg)': '#FF0000',
-    'Grupo 3 (Controle)': '#3498db'
+# Mapeamento de classes
+MAPEAMENTO_CLASSES = {
+    # Classe 1
+    "admirar": "Classe 1", "adorar": "Classe 1", "amar": "Classe 1", "desejar": "Classe 1", 
+    "detestar": "Classe 1", "estranhar": "Classe 1", "invejar": "Classe 1", "odiar": "Classe 1", 
+    "almejar": "Classe 1", "apreciar": "Classe 1",
+    # Classe 2
+    "aborrecer": "Classe 2", "afligir": "Classe 2", "abalar": "Classe 2", "chatear": "Classe 2", 
+    "comover": "Classe 2", "decepcionar": "Classe 2", "encantar": "Classe 2", "escandalizar": "Classe 2", 
+    "apaixonar": "Classe 2", "constranger": "Classe 2",
+    # Classe 3
+    "acalmar": "Classe 3", "apaziguar": "Classe 3", "convencer": "Classe 3", "enganar": "Classe 3", 
+    "humilhar": "Classe 3", "ludibriar": "Classe 3", "pacificar": "Classe 3", "derrotar": "Classe 3", 
+    "ridicularizar": "Classe 3", "tranquilizar": "Classe 3",
+    # Classe 4
+    "acovardar": "Classe 4", "agradar": "Classe 4", "alarmar": "Classe 4", "alegrar": "Classe 4", 
+    "animar": "Classe 4", "apavorar": "Classe 4", "assombrar": "Classe 4", "assustar": "Classe 4", 
+    "aterrorizar": "Classe 4", "atormentar": "Classe 4",
+    # Classe Controle
+    "dar": "Classe controle", "atribuir": "Classe controle", "devolver": "Classe controle", "distribuir": "Classe controle", 
+    "emprestar": "Classe controle", "entregar": "Classe controle", "fornecer": "Classe controle", "oferecer": "Classe controle", 
+    "pagar": "Classe controle", "transferir": "Classe controle"
 }
 
-# 2. Processamento - Regressão Logística
+# Paleta de cores (convertida e organizada para consistência no Seaborn)
+PALETA_CORES = {
+    "Classe 1": "#1f77b4",        # Azul
+    "Classe 2": "#ff7f0e",        # Laranja
+    "Classe 3": "#2ca02c",        # Verde
+    "Classe 4": "#d62728",        # Vermelho
+    "Classe controle": "#000000"   # Preto
+}
 
-coefs_lr = modelo_lr.coef_[valid_idx.values]
-pca_lr = PCA(n_components=2, random_state=42)
-coords_lr = pca_lr.fit_transform(coefs_lr)
-
-df_lr['PCA 1'] = coords_lr[:, 0]
-df_lr['PCA 2'] = coords_lr[:, 1]
-
-
-# 3. Processamento - SVM (Reconstrução OVO)
-
-n_classes = len(classes_model)
-n_features = modelo_svm.n_features_in_
-ovo_coef = modelo_svm.coef_.toarray() if hasattr(modelo_svm.coef_, "toarray") else modelo_svm.coef_
-
-svm_coefs_per_class = np.zeros((n_classes, n_features))
-k = 0
-for i in range(n_classes):
-    for j in range(i + 1, n_classes):
-        svm_coefs_per_class[i] += ovo_coef[k]
-        svm_coefs_per_class[j] -= ovo_coef[k]
-        k += 1
-
-coefs_svm_filtrados = svm_coefs_per_class[valid_idx.values]
-pca_svm = PCA(n_components=2, random_state=42)
-coords_svm = pca_svm.fit_transform(coefs_svm_filtrados)
-
-df_svm['PCA 1'] = coords_svm[:, 0]
-df_svm['PCA 2'] = coords_svm[:, 1]
-
-
-# 4. Gráficos Lado a Lado (Subplots)
-
-fig = make_subplots(
-    rows=1, cols=2,
-    subplot_titles=(
-        'Regressão Logística (OVR)', 
-        'SVM Linear (Hiperplanos OVO Reconstruídos)'
-    ),
-    horizontal_spacing=0.08
-)
-
-# Adiciona os pontos de cada grupo no subplot correspondente
-for grupo, cor in paleta_cores.items():
-    # --- Regressão Logística (Coluna 1) ---
-    df_g_lr = df_lr[df_lr['Grupo'] == grupo]
-    fig.add_trace(
-        go.Scatter(
-            x=df_g_lr['PCA 1'], y=df_g_lr['PCA 2'],
-            mode='markers',
-            name=grupo,
-            marker=dict(size=12, color=cor, opacity=0.85, line=dict(width=1, color='black')),
-            text=df_g_lr['Verbo'],
-            hovertemplate="<b>%{text}</b><br>Grupo: " + grupo + "<br>PCA 1: %{x:.2f}<br>PCA 2: %{y:.2f}<extra></extra>",
-            legendgroup=grupo, 
-            showlegend=True
-        ),
-        row=1, col=1
+def main():
+    pasta_src = Path(__file__).resolve().parent
+    raiz_projeto = pasta_src.parent
+    pasta_outputs = raiz_projeto / 'outputs'
+    pasta_outputs.mkdir(parents=True, exist_ok=True) # Garante que a pasta existe
+    
+    json_path = raiz_projeto / 'data' / 'corpus_processado.json'
+    features_path = pasta_outputs / 'features_xlmr_mean_pooling.npy'
+    
+    # 1. Carregar os dados
+    print("Carregando embeddings e metadados...")
+    X = np.load(features_path)
+    with open(json_path, 'r', encoding='utf-8') as f:
+        dados_json = json.load(f)
+        
+    verbos = [item['verbo_alvo'].strip().lower() for item in dados_json]
+    
+    # 2. Agrupar os embeddings calculando a média para cada verbo único
+    print("Agrupando embeddings por verbo...")
+    verbos_unicos = sorted(list(set(verbos)))
+    embeddings_medios = []
+    classes_verbos = []
+    
+    for v in verbos_unicos:
+        indices = [i for i, verbo in enumerate(verbos) if verbo == v]
+        vetor_medio = np.mean(X[indices], axis=0)
+        embeddings_medios.append(vetor_medio)
+        classes_verbos.append(MAPEAMENTO_CLASSES.get(v, "Desconhecido"))
+        
+    X_medios = np.vstack(embeddings_medios)
+    
+    # 3. Aplicar t-SNE
+    print("Executando redução de dimensionalidade com t-SNE...")
+    tsne = TSNE(
+        n_components=2, 
+        perplexity=10, 
+        random_state=42, 
+        init='pca', 
+        max_iter=1000
+    )
+    X_2d = tsne.fit_transform(X_medios)
+    
+    df = pd.DataFrame({
+        'x': X_2d[:, 0],
+        'y': X_2d[:, 1],
+        'Verbo': verbos_unicos,
+        'Classe': classes_verbos
+    })
+    
+    # 4. Configurar e Criar o Gráfico Estático (Padrão Publicação)
+    print("Gerando visualização de qualidade científica com Matplotlib e Seaborn...")
+    
+    # Proporção ideal para páginas de artigos (geralmente largura entre 6 e 8 polegadas)
+    fig, ax = plt.subplots(figsize=(8, 6.5), dpi=300)
+    
+    # Fundo branco e sem linhas de grade chamativas (estilo limpo)
+    ax.set_facecolor('white')
+    
+    # Plot dos pontos com Seaborn
+    scatter = sns.scatterplot(
+        data=df,
+        x='x',
+        y='y',
+        hue='Classe',
+        palette=PALETA_CORES,
+        hue_order=["Classe 1", "Classe 2", "Classe 3", "Classe 4", "Classe controle"],
+        s=45,                   
+        edgecolor='white',      
+        linewidth=0.7,
+        alpha=0.95,
+        ax=ax
     )
     
-    # --- SVM (Coluna 2) ---
-    df_g_svm = df_svm[df_svm['Grupo'] == grupo]
-    fig.add_trace(
-        go.Scatter(
-            x=df_g_svm['PCA 1'], y=df_g_svm['PCA 2'],
-            mode='markers',
-            name=grupo,
-            marker=dict(size=12, color=cor, opacity=0.85, line=dict(width=1, color='black')),
-            text=df_g_svm['Verbo'],
-            hovertemplate="<b>%{text}</b><br>Grupo: " + grupo + "<br>PCA 1: %{x:.2f}<br>PCA 2: %{y:.2f}<extra></extra>",
-            legendgroup=grupo,
-            showlegend=False
-        ),
-        row=1, col=2
+    # Rótulos dos eixos limpos
+    ax.set_xlabel("Dimensão t-SNE 1", fontweight='regular')
+    ax.set_ylabel("Dimensão t-SNE 2", fontweight='regular')
+    
+    # Tufte-style: Remove bordas de cima e da direita (despine)
+    sns.despine(ax=ax, top=True, right=True)
+    
+    # Ajuste fino da legenda acadêmica (fora da área dos dados para não sobrepor nada)
+    ax.legend(
+        title="Classes de Verbos",
+        bbox_to_anchor=(1.02, 1),
+        loc='upper left',
+        borderaxespad=0.,
+        frameon=False
     )
+    
+    # 5. Aplicar o adjustText para repelir os rótulos de forma inteligente
+    print("Ajustando posicionamento dos textos com o algoritmo adjustText...")
+    texts = []
+    for i in range(len(df)):
+        # Criamos o objeto de texto no gráfico
+        t = ax.text(
+            df['x'].iloc[i], 
+            df['y'].iloc[i], 
+            df['Verbo'].iloc[i],
+            fontsize=8,
+            fontfamily='serif'
+        )
+        texts.append(t)
+    
+    # Executa a repulsão física dos textos automaticamente
+    adjust_text(
+        texts,
+        x=df['x'].values,
+        y=df['y'].values,
+        arrowprops=dict(arrowstyle="-", color="grey", lw=0.5),
+        expand=(1.2, 1.4), 
+        force_text=(0.1, 0.25)
+    )
+    
+    # Ajuste de margens do layout
+    plt.tight_layout()
+    
+    # 6. Exportação de Formatos Vetoriais (Sem perda de resolução)
+    caminho_pdf = pasta_outputs / 'visualizacao_embeddings_tsne_controle.pdf'
+    caminho_svg = pasta_outputs / 'visualizacao_embeddings_tsne_controle.svg'
+    caminho_png = pasta_outputs / 'visualizacao_embeddings_tsne_controle.png' # Caso precise de uma prévia rápida
+    
+    # Salvando em múltiplos formatos
+    plt.savefig(caminho_pdf, format='pdf', bbox_inches='tight')
+    plt.savefig(caminho_svg, format='svg', bbox_inches='tight')
+    plt.savefig(caminho_png, format='png', dpi=300, bbox_inches='tight')
+    
+    plt.close()
+    
+    print(f"\nSucesso! Gráficos prontos para publicação salvos em:")
+    print(f" -> PDF: {caminho_pdf}")
+    print(f" -> SVG: {caminho_svg}")
+    print(f" -> PNG: {caminho_png}")
 
-
-# 5. Ajustes de Layout e Estilização
-
-fig.update_layout(
-    title_text='<b>Comparativo de Separabilidade Linear dos Verbos (PCA)</b>',
-    template='simple_white',
-    width=1400,
-    height=700,
-    title_font=dict(size=18),
-    legend=dict(title_text='Grupos Semânticos', orientation='h', yanchor='bottom', y=1.05, xanchor='right', x=1),
-)
-
-
-fig.update_xaxes(title_text=f'CP 1 ({pca_lr.explained_variance_ratio_[0]*100:.1f}%)', showgrid=True, gridcolor='LightGray', gridwidth=0.5, row=1, col=1)
-fig.update_yaxes(title_text=f'CP 2 ({pca_lr.explained_variance_ratio_[1]*100:.1f}%)', showgrid=True, gridcolor='LightGray', gridwidth=0.5, row=1, col=1)
-
-fig.update_xaxes(title_text=f'CP 1 ({pca_svm.explained_variance_ratio_[0]*100:.1f}%)', showgrid=True, gridcolor='LightGray', gridwidth=0.5, row=1, col=2)
-fig.update_yaxes(title_text=f'CP 2 ({pca_svm.explained_variance_ratio_[1]*100:.1f}%)', showgrid=True, gridcolor='LightGray', gridwidth=0.5, row=1, col=2)
-
-
-fig.show()
+if __name__ == "__main__":
+    main()

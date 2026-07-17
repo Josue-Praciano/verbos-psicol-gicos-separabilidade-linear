@@ -4,11 +4,14 @@ import torch
 from pathlib import Path
 from utils_pipeline import inicializar_modelos
 
-def extrair_embedding_mean_pooling(textos, tokenizer, model, device):
+def extrair_embedding_mean_pooling(batch_itens, tokenizer, model, device):
     """
-    Extrai embeddings usando Mean Pooling (média de todos os tokens válidos)
-    a partir da média das últimas 4 camadas do XLM-R. Suporta lotes (batches).
+    Extrai embeddings usando Mean Pooling global sobre toda a sentença.
+    Faz a média de todos os tokens válidos (não-padding), utilizando a 
+    média das últimas 4 camadas do XLM-R. Suporta batches.
     """
+    textos = [item['texto'] for item in batch_itens]
+
     with torch.no_grad():
         # Tokeniza o lote de textos com padding e truncamento dinâmico
         encoded = tokenizer(
@@ -18,32 +21,31 @@ def extrair_embedding_mean_pooling(textos, tokenizer, model, device):
             return_tensors='pt'
         ).to(device)
         
-        # O attention_mask pode ter sido interessante para ignorar tokens de [PAD] no cálculo da média
-        attention_mask = encoded['attention_mask']
-        
+        attention_mask = encoded['attention_mask']  # Shape: [batch_size, seq_len]
         outputs = model(**encoded, output_hidden_states=True)
         
-        # Média aritmética das últimas 4 camadas do Transformer (A camada 12 também serviria, porém me pareceu ser mais seguro fazer uma média das últimas 4 camadas)
+        # Média aritmética das últimas 4 camadas do Transformer
         ultimas_4 = torch.stack(outputs.hidden_states[-4:])
         media_camadas = ultimas_4.mean(dim=0)  # Shape: [batch_size, seq_len, hidden_size]
         
-        # Expandim a máscara de atenção para bater com o tamanho do embedding
-        input_mask_expanded = attention_mask.unsqueeze(-1).expand(media_camadas.size()).float()
+        # Expande a attention_mask para o tamanho do embedding [batch_size, seq_len, hidden_size]
+        # Isso garante que multiplicaremos por 0 os tokens de padding ([PAD])
+        mask_expandida = attention_mask.unsqueeze(-1).expand(media_camadas.size()).float()
         
-        # Multiplquei os embeddings pela máscara (zera os tokens de PAD) e somei na dimensão da sequência
-        sum_embeddings = torch.sum(media_camadas * input_mask_expanded, 1)
+        # Soma os embeddings das posições válidas (onde a máscara de atenção é 1)
+        soma_embeddings = torch.sum(media_camadas * mask_expandida, dim=1)
         
-        # Somei a máscara para saber quantos tokens reais cada sentença possui
-        sum_mask = torch.clamp(input_mask_expanded.sum(1), min=1e-9)
+        # Calcula a quantidade de tokens reais (não-padding) para cada sentença do batch
+        soma_mask = torch.clamp(mask_expandida.sum(dim=1), min=1e-9)
         
-        # Dividi a soma dos embeddings pelo total de tokens válidos
-        embeddings_finais = (sum_embeddings / sum_mask).cpu().numpy()
+        # Divide para obter o Mean Pooling (média global da sentença)
+        embeddings_finais = (soma_embeddings / soma_mask).cpu().numpy()
         
     return embeddings_finais
 
 def main():
     base_path = Path(__file__).parent.parent
-    json_path = base_path / 'data' / 'processed.json'
+    json_path = base_path / 'data' / 'corpus_processado.json'
     
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
@@ -54,22 +56,20 @@ def main():
     
     print(f"Total de registros carregados: {len(dados_corpus)}")
     
-    # Inicializa o pipeline do XLM-R-base
-    nlp_stanza, tokenizer, model, device = inicializar_modelos('xlm-roberta-base')
+    tokenizer, model, device = inicializar_modelos('xlm-roberta-base')
     
     features_list = []
     
     # Configuração de Batching
-    BATCH_SIZE = 32  # Alterar para 16 ou 64 dependendo da memória GPU/CPU, 32 funcionou bem para uma RX570 - 4gb
+    BATCH_SIZE = 16  # 16 funcionou bem para GPU de 4GB
     
     print(f"Iniciando a extração com Mean Pooling (Batch Size: {BATCH_SIZE})...")
     
     for i in range(0, len(dados_corpus), BATCH_SIZE):
         batch_itens = dados_corpus[i:i + BATCH_SIZE]
-        textos_batch = [item['texto'] for item in batch_itens]
         
-        # Extrai os embeddings para o lote inteiro de uma vez
-        embeddings_batch = extrair_embedding_mean_pooling(textos_batch, tokenizer, model, device)
+        # Passa o batch completo de dicionários para extrair a média global das sentenças
+        embeddings_batch = extrair_embedding_mean_pooling(batch_itens, tokenizer, model, device)
         
         features_list.append(embeddings_batch)
         
@@ -82,9 +82,18 @@ def main():
         print("\nProcessamento concluído com sucesso!")
         print("Formato final da matriz de features (Mean Pooling + 4 camadas):", features_matrix.shape)
         
-        # Salva a matriz em um arquivo binário do NumPy
-        np.save('features_xlmr_mean_pooling.npy', features_matrix)
-        print("Embeddings salvos em 'features_xlmr_mean_pooling.npy'")
+        # 1. Define o caminho da pasta outputs a partir da raiz do projeto
+        pasta_outputs = base_path / 'outputs'
+        
+        # 2. Garante que a pasta 'outputs' exista (cria se necessário)
+        pasta_outputs.mkdir(parents=True, exist_ok=True)
+        
+        # 3. Altera o nome do arquivo de saída para refletir a nova estratégia
+        caminho_salvamento = pasta_outputs / 'features_xlmr_mean_pooling.npy'
+        
+        # 4. Salva a matriz no local correto
+        np.save(caminho_salvamento, features_matrix)
+        print(f"Embeddings salvos com sucesso em: {caminho_salvamento}")
     else:
         print("Nenhuma feature foi extraída.")
 

@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Modelos salvos e arrays do NumPy
+*.joblib
+*.npy
