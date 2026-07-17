@@ -28,7 +28,7 @@ Inicialmente, foi construído um dataset manualmente com base nas classes de ver
 
 Foram selecionados 10 verbos por classe e extraídas 50 frases para cada um deles, totalizando 2.500 sentenças. Todos os dados foram coletados a partir do [Corpus do Português](https://www.corpusdoportugues.org/).
 
-O restante do projeto foi estruturado em três etapas principais: extração de representações vetoriais, classificação supervisionada e análise visual.
+O restante do projeto foi estruturado em três etapas principais: extração de embeddings, classificação supervisionada e análise visual.
 
 ### 1. Extração de Embeddings
 Para a extração das características textuais, utilizou-se o modelo de linguagem pré-treinado **XLM-RoBERTa (base)**. 
@@ -37,12 +37,12 @@ Para a extração das características textuais, utilizou-se o modelo de linguag
 
 ### 2. Classificação Supervisionada
 Com as features consolidadas, o problema foi tratado como uma tarefa de classificação em 5 classes utilizando os algoritmos **SVM (Support Vector Machine) com Kernel Linear** e **Regressão Logística**.
-* **Validação:** Os dados foram divididos na proporção 80/20 (treino/teste) usando amostragem estratificada. O processo de treinamento contou com uma **Validação Cruzada de 5 folds (*Stratified K-Fold*)** no conjunto de treino para garantir a estabilidade das métricas de acurácia. Adicionalmente, calculou-se o *Silhouette Score* (métrica de cosseno) para avaliar o nível de separabilidade prévia do espaço de features.
+* **Validação:** Os dados foram divididos na proporção 80/20 (treino/teste) usando amostragem estratificada. Ademais, o processo de treinamento contou com uma **Validação Cruzada de 5 folds (*Stratified K-Fold*)** no conjunto de treino. Adicionalmente, calculou-se o *Silhouette Score* (métrica de cosseno) para avaliar o nível de separabilidade prévia do espaço de features.
 * script disponível em [models.py](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/src/models.py)
 
-### 3. Visualização
+### 3. Análise Visual
 Para inspecionar o comportamento geométrico e o agrupamento das classes teóricas, foi desenvolvida uma análise visual bidimensional.
-* **Redução de Dimensionalidade:** Primeiro, calculou-se o vetor médio de embedding para cada um dos verbos únicos (comprimindo suas respectivas 50 frases). Em seguida, aplicou-se o algoritmo **t-SNE (*t-Distributed Stochastic Neighbor Embedding*)** com inicialização em PCA para projetar esses vetores em 2 dimensões. O resultado foi exportado em gráficos de dispersão vetoriais (PDF/SVG/PNG) com ajuste automático de rótulos para evitar sobreposição de texto.
+* **Redução de Dimensionalidade:** Primeiro, calculou-se o vetor médio de embedding para cada um dos verbos únicos (comprimindo suas respectivas 50 frases). Em seguida, aplicou-se o algoritmo **t-SNE (*t-Distributed Stochastic Neighbor Embedding*)** com inicialização em PCA para projetar esses vetores em 2 dimensões. Por fim, o resultado foi exportado em gráficos de dispersão vetoriais (PDF/SVG/PNG) com ajuste automático de rótulos para evitar sobreposição de texto.
 * script disponível em [visualization.py](https://github.com/Josue-Praciano/verbos-psicol-gicos-separabilidade-linear/blob/main/notebooks/visualization.py)
 
 -----
