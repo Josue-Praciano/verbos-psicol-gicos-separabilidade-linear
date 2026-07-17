@@ -11,9 +11,19 @@
 
 # Separabilidade Linear de Verbos Psicológicos no XLM-RoBERTa-base
 
-Este esstudo contém o pipeline completo feito para investigar a separabilidade linear de verbos psicológicos do Português utilizando embeddings do modelo Transformer **XLM-RoBERTa-base** e classificadores lineares.
+Este estudo contém o pipeline completo feito para investigar a separabilidade linear de verbos psicológicos do Português utilizando embeddings do modelo Transformer **XLM-RoBERTa-base** e classificadores lineares.
 
 O objetivo do projeto é avaliar se representações vetoriais de modelos de linguagem capturam nuances sintático-semânticas profundas (como papéis temáticos) a ponto de distinguir classes de verbos psicológicos sem o auxílio de metadados.
+
+Para isso o dataset foi construído manualmente com base nas classes de verbos psicológicos propostas por Cançado (1997). Para a estruturação do corpus, os dados foram divididos em cinco categorias:
+
+Classe 1: verbos do tipo temer
+Classe 2: verbos do tipo preocupar
+Classe 3: verbos do tipo acalmar
+Classe 4: verbos do tipo animar
+Classe Controle: Verbos de transferência
+
+Foram selecionados 10 verbos por classe e extraídas 50 frases para cada um deles, totalizando 2.500 sentenças. Todos os dados foram coletados a partir do [Corpus do Português](https://www.corpusdoportugues.org/).
 
 **Josué David Praciano* [Programa de Pós-Graduação em Informática/UFRJ]
 
