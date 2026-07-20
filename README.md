@@ -16,6 +16,7 @@ Resumo: Este estudo contém o pipeline completo feito para investigar a separabi
 O objetivo do projeto é avaliar se representações vetoriais de modelos de linguagem capturam nuances sintático-semânticas profundas (como papéis temáticos) a ponto de distinguir classes de verbos psicológicos sem o auxílio de anotação sintática prévia.
 
 Autor: Josué David Praciano [Programa de Pós-Graduação em Informática/UFRJ]
+
 Orientador(a): Vivian dos Santos Silva [Programa de Pós-Graduação em Informática/UFRJ]
 
 
